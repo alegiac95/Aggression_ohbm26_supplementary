@@ -3,27 +3,44 @@ layout: default
 title: Neuroanatomical and transcriptomic underpinnings of functional aggression subtypes
 ---
 
-<header class="paper-header">
-  <p class="paper-label">Extended Data and Methods</p>
-  <h1 class="paper-title">Neuroanatomical and transcriptomic underpinnings of functional aggression subtypes</h1>
-  <p class="paper-authors">Alessio Giacomel<sup>1,2,3</sup>, Wiebke Hennig<sup>1,2</sup>, Caroline Gurr<sup>1,2</sup>, Afsheen Kumar<sup>1,2</sup>, Johanna Leyhausen<sup>1,2</sup>, Hanna Seelemeyer<sup>1,2</sup>, Bassem Hermila<sup>1,2</sup>, Alexandre Jeanne<sup>1,2</sup>, Franziska Müller<sup>1,2</sup>, FemNAT-CD Consortium, Stephane De Brito<sup>4,5,6,7</sup>, Graeme Fairchild<sup>8</sup>, Kerstin Konrad<sup>9,10</sup>, Ute Habel<sup>11</sup>, Andreas G. Chiocchetti<sup>2</sup>, Christine M. Freitag<sup>2</sup>, Christine Ecker<sup>1,2,12</sup></p>
-  <div class="paper-affiliations">
-    <p><sup>1</sup> Cooperative Brain Imaging Centre (COBIC), University Hospital, Goethe University, Frankfurt am Main, Germany</p>
-    <p><sup>2</sup> Department of Child and Adolescent Psychiatry, University Hospital, Goethe University, Frankfurt am Main, Germany</p>
-    <p><sup>3</sup> Centre for Neuroimaging Sciences (CNS), Institute of Psychiatry, Psychology and Neurosciences (IoPPN), King's College London, London, UK</p>
-    <p><sup>4</sup> Centre for Human Brain Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom</p>
-    <p><sup>5</sup> Institute for Mental Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom</p>
-    <p><sup>6</sup> Centre for Developmental Science, School of Psychology, University of Birmingham, Birmingham, United Kingdom</p>
-    <p><sup>7</sup> Birmingham Centre for Neurogenetics, University of Birmingham, Birmingham, United Kingdom</p>
-    <p><sup>8</sup> Department of Psychology, University of Bath, Bath, United Kingdom</p>
-    <p><sup>9</sup> Child Neuropsychology Section, Department of Child and Adolescent Psychiatry, Psychosomatics and Psychotherapy, University Hospital RWTH Aachen, Aachen, Germany</p>
-    <p><sup>10</sup> JARA-Brain Institute II, Molecular Neuroscience and Neuroimaging, RWTH Aachen and Research Centre Jülich, Jülich, Germany</p>
-    <p><sup>11</sup> Department of Psychiatry, Psychotherapy and Psychosomatics, Faculty of Medicine, RWTH Aachen University, Aachen, Germany</p>
-    <p><sup>12</sup> Department of Forensic and Neurodevelopmental Sciences, Institute of Psychiatry, Psychology, and Neuroscience (IoPPN), King's College London, London, UK</p>
+<section class="hero">
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Poster Companion</p>
+    <p class="hero__subtitle">Extended Data and Methods</p>
+    <h1 class="hero__title">Neuroanatomical and transcriptomic underpinnings of functional aggression subtypes</h1>
+    <p class="hero__lede">This site expands the analyses summarized on the poster and gives readers a fast, navigable overview of cohort information, MRI processing, statistical models, and downstream biological interpretation.</p>
+    <div class="hero__chips">
+      <span>Participants</span>
+      <span>MRI Processing</span>
+      <span>GLM Analysis</span>
+      <span>Neuroreceptor Similarity</span>
+      <span>Gene Decoding</span>
+      <span>Functional Enrichment</span>
+    </div>
   </div>
-</header>
 
-<p class="paper-lede">This page expands the analyses summarized on the poster and gives readers a single place to find cohort information, processing details, statistical models, and interpretation workflows.</p>
+  <aside class="hero__panel">
+    <p class="hero__panel-label">Author Team</p>
+    <p class="hero__authors">Alessio Giacomel<sup>1,2,3</sup>, Wiebke Hennig<sup>1,2</sup>, Caroline Gurr<sup>1,2</sup>, Afsheen Kumar<sup>1,2</sup>, Johanna Leyhausen<sup>1,2</sup>, Hanna Seelemeyer<sup>1,2</sup>, Bassem Hermila<sup>1,2</sup>, Alexandre Jeanne<sup>1,2</sup>, Franziska Müller<sup>1,2</sup>, FemNAT-CD Consortium, Stephane De Brito<sup>4,5,6,7</sup>, Graeme Fairchild<sup>8</sup>, Kerstin Konrad<sup>9,10</sup>, Ute Habel<sup>11</sup>, Andreas G. Chiocchetti<sup>2</sup>, Christine M. Freitag<sup>2</sup>, Christine Ecker<sup>1,2,12</sup></p>
+    <details class="hero__details">
+      <summary>View affiliations</summary>
+      <div class="hero__affiliations">
+        <p><sup>1</sup> Cooperative Brain Imaging Centre (COBIC), University Hospital, Goethe University, Frankfurt am Main, Germany</p>
+        <p><sup>2</sup> Department of Child and Adolescent Psychiatry, University Hospital, Goethe University, Frankfurt am Main, Germany</p>
+        <p><sup>3</sup> Centre for Neuroimaging Sciences (CNS), Institute of Psychiatry, Psychology and Neurosciences (IoPPN), King's College London, London, UK</p>
+        <p><sup>4</sup> Centre for Human Brain Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom</p>
+        <p><sup>5</sup> Institute for Mental Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom</p>
+        <p><sup>6</sup> Centre for Developmental Science, School of Psychology, University of Birmingham, Birmingham, United Kingdom</p>
+        <p><sup>7</sup> Birmingham Centre for Neurogenetics, University of Birmingham, Birmingham, United Kingdom</p>
+        <p><sup>8</sup> Department of Psychology, University of Bath, Bath, United Kingdom</p>
+        <p><sup>9</sup> Child Neuropsychology Section, Department of Child and Adolescent Psychiatry, Psychosomatics and Psychotherapy, University Hospital RWTH Aachen, Aachen, Germany</p>
+        <p><sup>10</sup> JARA-Brain Institute II, Molecular Neuroscience and Neuroimaging, RWTH Aachen and Research Centre Jülich, Jülich, Germany</p>
+        <p><sup>11</sup> Department of Psychiatry, Psychotherapy and Psychosomatics, Faculty of Medicine, RWTH Aachen University, Aachen, Germany</p>
+        <p><sup>12</sup> Department of Forensic and Neurodevelopmental Sciences, Institute of Psychiatry, Psychology, and Neuroscience (IoPPN), King's College London, London, UK</p>
+      </div>
+    </details>
+  </aside>
+</section>
 
 <nav class="section-nav" aria-label="Page sections">
   <a href="#participants"><span>Participants</span><span class="section-nav__number">01</span></a>
@@ -36,11 +53,14 @@ title: Neuroanatomical and transcriptomic underpinnings of functional aggression
   <a href="#contact"><span>Contact</span><span class="section-nav__number">08</span></a>
 </nav>
 
----
-
-## Participants
-
-Use this section for a compact but complete cohort description.
+<section class="section-card" id="participants" markdown="1">
+  <div class="section-card__top">
+    <span class="section-card__index">01</span>
+    <div>
+      <h2>Participants</h2>
+      <p class="section-card__intro">Use this section for a compact but complete cohort description.</p>
+    </div>
+  </div>
 
 ### Sample Overview
 
@@ -60,10 +80,16 @@ Use this section for a compact but complete cohort description.
 ### Recommended Supplementary Material
 
 Add a concise demographics table here if the poster only reports `N`, age, or group counts.
+</section>
 
-## MRI Processing
-
-Describe acquisition and preprocessing as one coherent workflow so readers can follow how raw MRI data became analysis-ready maps.
+<section class="section-card" id="mri-processing" markdown="1">
+  <div class="section-card__top">
+    <span class="section-card__index">02</span>
+    <div>
+      <h2>MRI Processing</h2>
+      <p class="section-card__intro">Describe acquisition and preprocessing as one coherent workflow so readers can follow how raw MRI data became analysis-ready maps.</p>
+    </div>
+  </div>
 
 ### MRI Acquisition
 
@@ -83,10 +109,16 @@ Describe acquisition and preprocessing as one coherent workflow so readers can f
 ### Outputs Used in Downstream Analyses
 
 State which derived brain maps, regional measures, or subject-level summaries entered the GLM, neuroreceptor similarity, and transcriptomic analyses.
+</section>
 
-## GLM Analysis
-
-Use this section for the main inferential model behind the poster results.
+<section class="section-card" id="glm-analysis" markdown="1">
+  <div class="section-card__top">
+    <span class="section-card__index">03</span>
+    <div>
+      <h2>GLM Analysis</h2>
+      <p class="section-card__intro">Use this section for the main inferential model behind the poster results.</p>
+    </div>
+  </div>
 
 ### Outcome, Predictors, and Covariates
 
@@ -109,10 +141,16 @@ outcome ~ aggression_score + age + sex + site
 - Effect size metric:
 - Multiple-comparison correction:
 - Sensitivity or robustness checks:
+</section>
 
-## Neuroreceptor Similarity
-
-Describe how the statistical map was compared with neurotransmitter or receptor reference maps.
+<section class="section-card" id="neuroreceptor-similarity" markdown="1">
+  <div class="section-card__top">
+    <span class="section-card__index">04</span>
+    <div>
+      <h2>Neuroreceptor Similarity</h2>
+      <p class="section-card__intro">Describe how the statistical map was compared with neurotransmitter or receptor reference maps.</p>
+    </div>
+  </div>
 
 ### Reference Maps
 
@@ -131,10 +169,16 @@ Describe how the statistical map was compared with neurotransmitter or receptor 
 ### Reporting
 
 Summarize how similarity strength, direction, and corrected significance are presented on the poster and on this page.
+</section>
 
-## Gene Decoding
-
-Use this section to describe the transcriptomic interpretation of the imaging result.
+<section class="section-card" id="gene-decoding" markdown="1">
+  <div class="section-card__top">
+    <span class="section-card__index">05</span>
+    <div>
+      <h2>Gene Decoding</h2>
+      <p class="section-card__intro">Use this section to describe the transcriptomic interpretation of the imaging result.</p>
+    </div>
+  </div>
 
 ### Transcriptomic Resource
 
@@ -153,10 +197,16 @@ Use this section to describe the transcriptomic interpretation of the imaging re
 ### Reporting
 
 Link the full ranked gene list or supplementary table here if only top hits are shown on the poster.
+</section>
 
-## Functional Enrichment
-
-This section should explain how the decoded gene set was translated into biological interpretation.
+<section class="section-card" id="functional-enrichment" markdown="1">
+  <div class="section-card__top">
+    <span class="section-card__index">06</span>
+    <div>
+      <h2>Functional Enrichment</h2>
+      <p class="section-card__intro">This section should explain how the decoded gene set was translated into biological interpretation.</p>
+    </div>
+  </div>
 
 ### Input Gene Set
 
@@ -174,16 +224,31 @@ This section should explain how the decoded gene set was translated into biologi
 ### Reporting
 
 Include a short table of top enriched terms and provide a downloadable file with the full enrichment results.
+</section>
 
----
-
-## Data and Code Availability
+<section class="section-card" id="data-and-code-availability" markdown="1">
+  <div class="section-card__top">
+    <span class="section-card__index">07</span>
+    <div>
+      <h2>Data and Code Availability</h2>
+      <p class="section-card__intro">Use this block for direct links and concise reuse statements.</p>
+    </div>
+  </div>
 
 - Code: [GitHub repository](https://github.com/YOURUSERNAME/Aggression_ohbm26_supplementary)
 - Supplementary tables and figures: add links here
 - Data access statement: add repository or access language here
+</section>
 
-## Contact
+<section class="section-card" id="contact" markdown="1">
+  <div class="section-card__top">
+    <span class="section-card__index">08</span>
+    <div>
+      <h2>Contact</h2>
+      <p class="section-card__intro">Add the corresponding contact details for follow-up questions.</p>
+    </div>
+  </div>
 
 **Your Name**  
 your.email@institution.edu
+</section>
