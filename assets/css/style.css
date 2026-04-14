@@ -1,14 +1,14 @@
 :root {
-  --paper: rgba(251, 248, 242, 0.94);
-  --paper-edge: rgba(94, 83, 62, 0.12);
-  --background-top: #f7f2e9;
-  --background-bottom: #dfd6c8;
-  --ink: #1f2630;
-  --muted: #5d6870;
-  --accent: #214956;
-  --accent-soft: #dfeaed;
-  --rule: rgba(33, 73, 86, 0.18);
-  --shadow: 0 26px 72px rgba(58, 47, 28, 0.14);
+  --paper: rgba(255, 255, 255, 0.9);
+  --paper-edge: rgba(15, 23, 42, 0.08);
+  --background-top: #f7faff;
+  --background-bottom: #dde7f3;
+  --ink: #142033;
+  --muted: #66758a;
+  --accent: #145b7d;
+  --accent-soft: #e7f2f8;
+  --rule: rgba(20, 91, 125, 0.14);
+  --shadow: 0 28px 72px rgba(15, 23, 42, 0.12);
 }
 
 html {
@@ -19,8 +19,9 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at top, rgba(255, 255, 255, 0.58), transparent 34%),
-    linear-gradient(180deg, var(--background-top) 0%, #ebe4d8 42%, var(--background-bottom) 100%);
+    radial-gradient(circle at top left, rgba(61, 153, 202, 0.15), transparent 28%),
+    radial-gradient(circle at top right, rgba(20, 91, 125, 0.09), transparent 24%),
+    linear-gradient(180deg, var(--background-top) 0%, #edf3fa 46%, var(--background-bottom) 100%);
   color: var(--ink);
   font-family: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
   line-height: 1.75;
@@ -32,13 +33,13 @@ body::before {
   inset: 0;
   z-index: 0;
   background:
-    linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.08)),
+    linear-gradient(rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.08)),
     repeating-linear-gradient(
       90deg,
       transparent 0,
       transparent 72px,
-      rgba(33, 73, 86, 0.018) 72px,
-      rgba(33, 73, 86, 0.018) 73px
+      rgba(20, 91, 125, 0.014) 72px,
+      rgba(20, 91, 125, 0.014) 73px
     );
   pointer-events: none;
 }
@@ -65,7 +66,7 @@ body::before {
   padding: clamp(1.5rem, 4vw, 4.5rem);
   border: 1px solid var(--paper-edge);
   border-radius: 28px;
-  background: var(--paper);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.97), var(--paper));
   box-shadow: var(--shadow);
   backdrop-filter: blur(6px);
 }
@@ -74,7 +75,7 @@ body::before {
   content: "";
   position: absolute;
   inset: 14px;
-  border: 1px solid rgba(33, 73, 86, 0.08);
+  border: 1px solid rgba(20, 91, 125, 0.06);
   border-radius: 20px;
   pointer-events: none;
 }
@@ -111,7 +112,7 @@ body::before {
 .paper-title {
   max-width: 20ch;
   margin: 0 auto;
-  color: #182029;
+  color: #102033;
   font-size: clamp(2.15rem, 4.4vw, 3.7rem);
   font-weight: 600;
   line-height: 1.08;
@@ -132,10 +133,14 @@ body::before {
   gap: 0.85rem 1.4rem;
   max-width: 58rem;
   margin: 1.75rem auto 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(20, 91, 125, 0.08);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(231, 242, 248, 0.45), rgba(255, 255, 255, 0.65));
   color: var(--muted);
   text-align: left;
-  font-size: 0.96rem;
-  line-height: 1.6;
+  font-size: 0.82rem;
+  line-height: 1.45;
 }
 
 .paper-affiliations p {
@@ -145,7 +150,7 @@ body::before {
 .paper-lede {
   max-width: 52rem;
   margin: 0 auto 2rem;
-  color: #313947;
+  color: #38465b;
   font-size: 1.12rem;
   line-height: 1.9;
   text-align: center;
@@ -164,9 +169,9 @@ body::before {
   justify-content: space-between;
   gap: 1rem;
   padding: 0.95rem 1rem;
-  border: 1px solid rgba(33, 73, 86, 0.14);
+  border: 1px solid rgba(20, 91, 125, 0.12);
   border-radius: 14px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(239, 244, 244, 0.72));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(231, 242, 248, 0.66));
   color: var(--accent);
   text-decoration: none;
   font-family: "Source Sans 3", "Avenir Next", "Segoe UI", sans-serif;
@@ -179,9 +184,9 @@ body::before {
 .section-nav a:hover,
 .section-nav a:focus-visible {
   transform: translateY(-2px);
-  border-color: rgba(33, 73, 86, 0.28);
-  background: linear-gradient(180deg, #ffffff, #edf3f4);
-  box-shadow: 0 12px 24px rgba(33, 73, 86, 0.08);
+  border-color: rgba(20, 91, 125, 0.26);
+  background: linear-gradient(180deg, #ffffff, #eff7fb);
+  box-shadow: 0 12px 24px rgba(20, 91, 125, 0.08);
 }
 
 .section-nav__number {
@@ -227,7 +232,7 @@ hr {
 
 .paper-sheet h3 {
   margin: 1.75rem 0 0.6rem;
-  color: #1b2530;
+  color: #18293c;
   font-size: 1.34rem;
   font-weight: 600;
   line-height: 1.3;
@@ -252,13 +257,13 @@ hr {
 }
 
 .paper-sheet a {
-  color: #0f566c;
+  color: #0f678d;
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.18em;
 }
 
 .paper-sheet a:hover {
-  color: #0a6e89;
+  color: #0b7da8;
 }
 
 .paper-sheet pre,
@@ -269,16 +274,16 @@ hr {
 .paper-sheet pre {
   overflow-x: auto;
   padding: 1rem 1.15rem;
-  border: 1px solid rgba(33, 73, 86, 0.12);
+  border: 1px solid rgba(20, 91, 125, 0.12);
   border-radius: 14px;
-  background: #f3efe7;
+  background: #f3f8fc;
   font-size: 0.95rem;
 }
 
 .paper-sheet :not(pre) > code {
   padding: 0.12rem 0.35rem;
   border-radius: 0.45rem;
-  background: #f3efe7;
+  background: #edf5fb;
   font-size: 0.92em;
 }
 
@@ -299,7 +304,7 @@ hr {
 .paper-sheet th,
 .paper-sheet td {
   padding: 0.8rem 0.5rem;
-  border-bottom: 1px solid rgba(33, 73, 86, 0.12);
+  border-bottom: 1px solid rgba(20, 91, 125, 0.12);
   text-align: left;
   vertical-align: top;
 }
@@ -343,7 +348,8 @@ hr {
 
   .paper-affiliations {
     grid-template-columns: 1fr;
-    font-size: 0.93rem;
+    padding: 0.9rem 0.95rem;
+    font-size: 0.78rem;
   }
 
   .paper-lede {
