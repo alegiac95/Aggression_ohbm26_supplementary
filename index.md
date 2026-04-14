@@ -3,37 +3,38 @@ layout: default
 title: Neuroanatomical and transcriptomic underpinnings of functional aggression subtypes
 ---
 
-# Neuroanatomical and transcriptomic underpinnings of functional aggression subtypes
+<header class="paper-header">
+  <p class="paper-label">Extended Data and Methods</p>
+  <h1 class="paper-title">Neuroanatomical and transcriptomic underpinnings of functional aggression subtypes</h1>
+  <p class="paper-authors">Alessio Giacomel<sup>1,2,3</sup>, Wiebke Hennig<sup>1,2</sup>, Caroline Gurr<sup>1,2</sup>, Afsheen Kumar<sup>1,2</sup>, Johanna Leyhausen<sup>1,2</sup>, Hanna Seelemeyer<sup>1,2</sup>, Bassem Hermila<sup>1,2</sup>, Alexandre Jeanne<sup>1,2</sup>, Franziska Müller<sup>1,2</sup>, FemNAT-CD Consortium, Stephane De Brito<sup>4,5,6,7</sup>, Graeme Fairchild<sup>8</sup>, Kerstin Konrad<sup>9,10</sup>, Ute Habel<sup>11</sup>, Andreas G. Chiocchetti<sup>2</sup>, Christine M. Freitag<sup>2</sup>, Christine Ecker<sup>1,2,12</sup></p>
+  <div class="paper-affiliations">
+    <p><sup>1</sup> Cooperative Brain Imaging Centre (COBIC), University Hospital, Goethe University, Frankfurt am Main, Germany</p>
+    <p><sup>2</sup> Department of Child and Adolescent Psychiatry, University Hospital, Goethe University, Frankfurt am Main, Germany</p>
+    <p><sup>3</sup> Centre for Neuroimaging Sciences (CNS), Institute of Psychiatry, Psychology and Neurosciences (IoPPN), King's College London, London, UK</p>
+    <p><sup>4</sup> Centre for Human Brain Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom</p>
+    <p><sup>5</sup> Institute for Mental Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom</p>
+    <p><sup>6</sup> Centre for Developmental Science, School of Psychology, University of Birmingham, Birmingham, United Kingdom</p>
+    <p><sup>7</sup> Birmingham Centre for Neurogenetics, University of Birmingham, Birmingham, United Kingdom</p>
+    <p><sup>8</sup> Department of Psychology, University of Bath, Bath, United Kingdom</p>
+    <p><sup>9</sup> Child Neuropsychology Section, Department of Child and Adolescent Psychiatry, Psychosomatics and Psychotherapy, University Hospital RWTH Aachen, Aachen, Germany</p>
+    <p><sup>10</sup> JARA-Brain Institute II, Molecular Neuroscience and Neuroimaging, RWTH Aachen and Research Centre Jülich, Jülich, Germany</p>
+    <p><sup>11</sup> Department of Psychiatry, Psychotherapy and Psychosomatics, Faculty of Medicine, RWTH Aachen University, Aachen, Germany</p>
+    <p><sup>12</sup> Department of Forensic and Neurodevelopmental Sciences, Institute of Psychiatry, Psychology, and Neuroscience (IoPPN), King's College London, London, UK</p>
+  </div>
+</header>
 
-*Extended Data and Methods*
+<p class="paper-lede">This page expands the analyses summarized on the poster and gives readers a single place to find cohort information, processing details, statistical models, and interpretation workflows.</p>
 
-Alessio Giacomel<sup>1,2,3</sup>, Wiebke Hennig<sup>1,2</sup>, Caroline Gurr<sup>1,2</sup>, Afsheen Kumar<sup>1,2</sup>, Johanna Leyhausen<sup>1,2</sup>, Hanna Seelemeyer<sup>1,2</sup>, Bassem Hermila<sup>1,2</sup>, Alexandre Jeanne<sup>1,2</sup>, Franziska Müller<sup>1,2</sup>, FemNAT-CD Consortium, Stephane De Brito<sup>4,5,6,7</sup>, Graeme Fairchild<sup>8</sup>, Kerstin Konrad<sup>9,10</sup>, Ute Habel<sup>11</sup>, Andreas G. Chiocchetti<sup>2</sup>, Christine M. Freitag<sup>2</sup>, Christine Ecker<sup>1,2,12</sup>
-
-<sup>1</sup> Cooperative Brain Imaging Centre (COBIC), University Hospital, Goethe University, Frankfurt am Main, Germany  
-<sup>2</sup> Department of Child and Adolescent Psychiatry, University Hospital, Goethe University, Frankfurt am Main, Germany  
-<sup>3</sup> Centre for Neuroimaging Sciences (CNS), Institute of Psychiatry, Psychology and Neurosciences (IoPPN), King's College London, London, UK  
-<sup>4</sup> Centre for Human Brain Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom  
-<sup>5</sup> Institute for Mental Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom  
-<sup>6</sup> Centre for Developmental Science, School of Psychology, University of Birmingham, Birmingham, United Kingdom  
-<sup>7</sup> Birmingham Centre for Neurogenetics, University of Birmingham, Birmingham, United Kingdom  
-<sup>8</sup> Department of Psychology, University of Bath, Bath, United Kingdom  
-<sup>9</sup> Child Neuropsychology Section, Department of Child and Adolescent Psychiatry, Psychosomatics and Psychotherapy, University Hospital RWTH Aachen, Aachen, Germany  
-<sup>10</sup> JARA-Brain Institute II, Molecular Neuroscience and Neuroimaging, RWTH Aachen and Research Centre Jülich, Jülich, Germany  
-<sup>11</sup> Department of Psychiatry, Psychotherapy and Psychosomatics, Faculty of Medicine, RWTH Aachen University, Aachen, Germany  
-<sup>12</sup> Department of Forensic and Neurodevelopmental Sciences, Institute of Psychiatry, Psychology, and Neuroscience (IoPPN), King's College London, London, UK  
-
-This page expands the analyses summarized on the poster and gives readers a single place to find cohort information, processing details, statistical models, and interpretation workflows.
-
-## Page Guide
-
-- [Participants](#participants)
-- [MRI Processing](#mri-processing)
-- [GLM Analysis](#glm-analysis)
-- [Neuroreceptor Similarity](#neuroreceptor-similarity)
-- [Gene Decoding](#gene-decoding)
-- [Functional Enrichment](#functional-enrichment)
-- [Data and Code Availability](#data-and-code-availability)
-- [Contact](#contact)
+<nav class="section-nav" aria-label="Page sections">
+  <a href="#participants"><span>Participants</span><span class="section-nav__number">01</span></a>
+  <a href="#mri-processing"><span>MRI Processing</span><span class="section-nav__number">02</span></a>
+  <a href="#glm-analysis"><span>GLM Analysis</span><span class="section-nav__number">03</span></a>
+  <a href="#neuroreceptor-similarity"><span>Neuroreceptor Similarity</span><span class="section-nav__number">04</span></a>
+  <a href="#gene-decoding"><span>Gene Decoding</span><span class="section-nav__number">05</span></a>
+  <a href="#functional-enrichment"><span>Functional Enrichment</span><span class="section-nav__number">06</span></a>
+  <a href="#data-and-code-availability"><span>Data and Code Availability</span><span class="section-nav__number">07</span></a>
+  <a href="#contact"><span>Contact</span><span class="section-nav__number">08</span></a>
+</nav>
 
 ---
 
