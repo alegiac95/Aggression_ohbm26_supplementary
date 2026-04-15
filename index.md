@@ -235,7 +235,7 @@ Include a short table of top enriched terms and provide a downloadable file with
     </div>
   </div>
 
-- Extended data [GitHub repository](https://github.com/YOURUSERNAME/Aggression_ohbm26_supplementary).
+- Extended data [GitHub repository](https://github.com/alegiac95/Aggression_ohbm26_supplementary).
 - Data access statement: No new data were generated or analyzed in support of this research. Data supporting this study are not publicly available but can be requested from the FemNAT-CD Steering Committee, which is chaired by Professor Christine Freitag and can be requested at: C.Freitag@em.unifrankfurt.de.
 - Code used for analysis and generation of the figures will be made available upon publication.
 </section>
