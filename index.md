@@ -98,28 +98,18 @@ Aggressive behaviors were assessed using the Reactive–Proactive Aggression Que
     <span class="section-card__index">02</span>
     <div>
       <h2>MRI Processing</h2>
-      <p class="section-card__intro">Describe acquisition and preprocessing as one coherent workflow so readers can follow how raw MRI data became analysis-ready maps.</p>
+      <p class="section-card__intro">MRI acquisition and preprocessing procedures used to derive cortical-thickness measures for downstream analyses.</p>
     </div>
   </div>
 
 ### MRI Acquisition
 
-- Scanner and field strength:
-- Structural sequence and resolution:
-- Functional sequence and resolution:
-- Additional modalities:
+All participants underwent MRI scanning at one of five sites across Europe: Frankfurt, Basel, Birmingham, Aachen, and Southampton. Structural T1-weighted scans were acquired using either Siemens 3-Tesla MRI systems (Tim-Trio and Prisma) or a Philips 3-Tesla MRI system (Achieva) with magnetization-prepared rapid acquisition gradient-echo sequences. Scans were acquired with a 256 mm field of view and 1.1 x 1.1 x 1.1 mm resolution. Additional details on acquisition parameters and quality assessment procedures are reported in previous consortium publications 35-37.
 
 ### Preprocessing Workflow
 
-1. Raw data organization and BIDS conversion
-2. Structural preprocessing
-3. Functional preprocessing
-4. Registration, normalization, and parcellation
-5. Quality control and exclusion thresholds
+Structural scans were processed with [FreeSurfer 6.0.0](http://surfer.nmr.mgh.harvard.edu/) to reconstruct cortical surfaces. The standard automated pipeline included intensity normalization, skull stripping, and reconstruction of the gray/white matter boundary and pial surface. Cortical thickness (CT) was computed at each cortical vertex as the average distance between the white matter surface and the closest point on the pial surface 45,46, and the resulting vertex-wise CT maps were smoothed with a 15 mm full width at half maximum (FWHM) Gaussian kernel. In addition, mean cortical thickness (CT0) across both hemispheres was computed for each participant.
 
-### Outputs Used in Downstream Analyses
-
-State which derived brain maps, regional measures, or subject-level summaries entered the GLM, neuroreceptor similarity, and transcriptomic analyses.
 </section>
 
 <section class="section-card" id="glm-analysis" markdown="1">
