@@ -108,7 +108,7 @@ All participants underwent MRI scanning at one of five sites across Europe: Fran
 
 ### Preprocessing Workflow
 
-Structural scans were processed with [FreeSurfer 6.0.0](http://surfer.nmr.mgh.harvard.edu/) to reconstruct cortical surfaces. The standard automated pipeline included intensity normalization, skull stripping, and reconstruction of the gray/white matter boundary and pial surface. Cortical thickness (CT) was computed at each cortical vertex as the average distance between the white matter surface and the closest point on the pial surface 45,46, and the resulting vertex-wise CT maps were smoothed with a 15 mm full width at half maximum (FWHM) Gaussian kernel. In addition, mean cortical thickness (CT0) across both hemispheres was computed for each participant.
+Structural scans were processed with [FreeSurfer 6.0.0](http://surfer.nmr.mgh.harvard.edu/) to reconstruct cortical surfaces. The standard automated pipeline included intensity normalization, skull stripping, and reconstruction of the gray/white matter boundary and pial surface. Cortical thickness (CT) was computed at each cortical vertex as the average distance between the white matter surface and the closest point on the pial surface, and the resulting vertex-wise CT maps were smoothed with a 15 mm full width at half maximum (FWHM) Gaussian kernel. In addition, mean cortical thickness (CT<sub>0</sub>) across both hemispheres was computed for each participant.
 
 </section>
 
@@ -123,13 +123,17 @@ Structural scans were processed with [FreeSurfer 6.0.0](http://surfer.nmr.mgh.ha
 
 ### Model Overview
 
-Vertex-wise generalized linear models (GLMs) were estimated with the BrainStat Python toolbox using cortical thickness data as the outcome measure. The model included linear and quadratic age terms to capture potential nonlinear developmental effects, sex, full-scale intelligence quotient (FSIQ), reactive aggression (RA), proactive aggression (PA), sex-by-RA and sex-by-PA interaction terms, acquisition site, and global mean cortical thickness (CT0).
+Vertex-wise generalized linear models (GLMs) were estimated with the BrainStat Python toolbox using cortical thickness data as the outcome measure. The model included linear and quadratic age terms to capture potential nonlinear developmental effects, sex, full-scale intelligence quotient (FSIQ), reactive aggression (RA), proactive aggression (PA), sex-by-RA and sex-by-PA interaction terms, acquisition site, and global mean cortical thickness (CT<sub>0</sub>).
 
-```text
-CT ~ age + age^2 + sex + FSIQ + RA + RA:sex + PA + PA:sex + site + CT0
-```
+$$
+\begin{aligned}
+\mathrm{CT} \sim\ & \beta_0 + \beta_1 \mathrm{age} + \beta_2 \mathrm{age}^2 + \beta_3 \mathrm{sex} + \beta_4 \mathrm{FSIQ} \\
+& + \beta_5 \mathrm{RA} + \beta_6 (\mathrm{RA} \times \mathrm{sex}) + \beta_7 \mathrm{PA} + \beta_8 (\mathrm{PA} \times \mathrm{sex}) \\
+& + \beta_9 \mathrm{site} + \beta_{10} \mathrm{CT}_0 + \varepsilon
+\end{aligned}
+$$
 
-Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT0 was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p_clust < 0.05.
+Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT<sub>0</sub> was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p<sub>clust</sub> &lt; 0.05.
 
 </section>
 
