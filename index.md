@@ -59,28 +59,14 @@ title: Neuroanatomical and transcriptomic underpinnings of functional aggression
     <span class="section-card__index">01</span>
     <div>
       <h2>Participants</h2>
-      <p class="section-card__intro">Use this section for a compact but complete cohort description.</p>
+      <p class="section-card__intro">Participants from the FemNAT-CD cohort included in the current study.</p>
     </div>
   </div>
 
 ### Sample Overview
+All subject data used in this study were obtained from the FemNAT-CD study, a multicenter study aimed at investigating sex differences in Conduct Disorders (CD).
+Of the full sample, participants were included in the present study if 1) they had completed an MRI scan; 2) had available ancillary information for the analysis (i.e., age, biological sex), and 3) behavioral measures for full-scale intelligence quotient (FSIQ), measured with the Wechsler Abbreviated Scale of Intelligence 2nd edition (WASI-II), and aggressive behaviors
 
-- Recruitment source:
-- Final sample size:
-- Age summary:
-- Sex distribution:
-- Key behavioral or clinical descriptors:
-
-### Inclusion and Exclusion Criteria
-
-- Inclusion criteria:
-- Exclusion criteria:
-- MRI quality-control exclusions:
-- Analysis-specific exclusions:
-
-### Recommended Supplementary Material
-
-Add a concise demographics table here if the poster only reports `N`, age, or group counts.
 </section>
 
 <section class="section-card" id="mri-processing" markdown="1">
