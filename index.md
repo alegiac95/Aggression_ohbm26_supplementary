@@ -117,31 +117,20 @@ Structural scans were processed with [FreeSurfer 6.0.0](http://surfer.nmr.mgh.ha
     <span class="section-card__index">03</span>
     <div>
       <h2>GLM Analysis</h2>
-      <p class="section-card__intro">Use this section for the main inferential model behind the poster results.</p>
+      <p class="section-card__intro">Vertex-wise general linear modeling framework used to test associations between cortical thickness and aggressive behavior.</p>
     </div>
   </div>
 
-### Outcome, Predictors, and Covariates
+### Model Overview
 
-- Primary outcome:
-- Main predictor of interest:
-- Covariates:
-- Random effects or grouping variables, if applicable:
-
-### Model Specification
-
-Add the full model formula here so readers can reconstruct the analysis.
+Vertex-wise generalized linear models (GLMs) were estimated with the BrainStat Python toolbox using cortical thickness data as the outcome measure. The model included linear and quadratic age terms to capture potential nonlinear developmental effects, sex, full-scale intelligence quotient (FSIQ), reactive aggression (RA), proactive aggression (PA), sex-by-RA and sex-by-PA interaction terms, acquisition site, and global mean cortical thickness (CT0).
 
 ```text
-outcome ~ aggression_score + age + sex + site
+CT ~ age + age^2 + sex + FSIQ + RA + RA:sex + PA + PA:sex + site + CT0
 ```
 
-### Contrasts and Statistical Inference
+Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT0 was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p_clust < 0.05.
 
-- Primary contrasts or hypotheses:
-- Effect size metric:
-- Multiple-comparison correction:
-- Sensitivity or robustness checks:
 </section>
 
 <section class="section-card" id="neuroreceptor-similarity" markdown="1">
