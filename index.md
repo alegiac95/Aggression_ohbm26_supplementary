@@ -133,7 +133,9 @@ $$
 \end{aligned}
 $$
 
-Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT<sub>0</sub> was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p<sub>clust</sub> &lt; 0.05.
+Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT<sub>0</sub> was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p<sub>clust</sub> &lt; 0.05. All analyses were performed with the [Brainstat package](https://brainstat.readthedocs.io/en/master/) in Python.
+
+
 
 </section>
 
@@ -230,7 +232,7 @@ Include a short table of top enriched terms and provide a downloadable file with
   </div>
 
 - Extended data [GitHub repository](https://github.com/alegiac95/Aggression_ohbm26_supplementary).
-- Data access statement: No new data were generated or analyzed in support of this research. Data supporting this study are not publicly available but can be requested from the FemNAT-CD Steering Committee, which is chaired by Professor Christine Freitag and can be requested at: C.Freitag@em.unifrankfurt.de.
+- Data access statement: No new data were generated or analyzed in support of this research. Data supporting this study are not publicly available but can be requested from the FemNAT-CD Steering Committee, which is chaired by Professor Christine Freitag and can be requested at: [C.Freitag@em.unifrankfurt.de](mailto:C.Freitag@em.unifrankfurt.de).
 - Code used for analysis and generation of the figures will be made available upon publication.
 </section>
 
@@ -256,5 +258,5 @@ This study was funded by the German Research Foundation (DFG) - Project number 5
   </div>
 
 **Alessio Giacomel**  
-giacomel@med.uni-frankfurt.de
+[giacomel@med.uni-frankfurt.de](mailto:giacomel@med.uni-frankfurt.de)
 </section>
