@@ -65,7 +65,31 @@ title: Neuroanatomical and transcriptomic underpinnings of functional aggression
 
 ### Sample Overview
 All subject data used in this study were obtained from the FemNAT-CD study, a multicenter study aimed at investigating sex differences in Conduct Disorders (CD).
-Of the full sample, participants were included in the present study if 1) they had completed an MRI scan; 2) had available ancillary information for the analysis (i.e., age, biological sex), and 3) behavioral measures for full-scale intelligence quotient (FSIQ), measured with the Wechsler Abbreviated Scale of Intelligence 2nd edition (WASI-II), and aggressive behaviors
+Of the full sample, participants were included in the present study if 1) they had completed an MRI scan; 2) had available ancillary information for the analysis (i.e., age, biological sex), and 3) behavioral measures for full-scale intelligence quotient (FSIQ), measured with the Wechsler Abbreviated Scale of Intelligence 2nd edition (WASI-II), and aggressive behaviors.
+
+Aggressive behaviors were assessed using the Reactive–Proactive Aggression Questionnaire (RPQ)11, a validated 23-item self-report instrument designed to distinguish between reactive and proactive aggression. The scale comprises two subscales, with items assessing impulsive, retaliatory aggression (reactive aggression - RA) and deliberate, goal-directed aggression (proactive aggression - PA). Participants rated each item on a three-point Likert scale ranging from 0 (never) to 2 (often). Individual items in each subscale were summed to obtain an RA and PA subscale score for each participant.
+
+| Characteristic | Overall N = 670<sup>&dagger;</sup> | CD N = 279<sup>&dagger;</sup> | HC N = 391<sup>&dagger;</sup> | Test statistic | p-value<sup>2</sup> |
+| --- | --- | --- | --- | --- | --- |
+| **Demographics** |  |  |  |  |  |
+| Age (years) | 14.21 &plusmn; 2.49<br>[9-18] | 14.25 &plusmn; 2.41<br>[9-18] | 14.18 &plusmn; 2.55<br>[9-18] | W = 54906.00 | 0.883 |
+| Sex |  |  |  | chi<sup>2</sup> = 7.24, df = 1 | 0.006 |
+| F | 345 (51%) | 126 (45%) | 219 (56%) |  |  |
+| M | 325 (49%) | 153 (55%) | 172 (44%) |  |  |
+| FSIQ | 100 &plusmn; 13<br>[68-138] | 95 &plusmn; 12<br>[68-128] | 104 &plusmn; 12<br>[70-138] | W = 32914.50 | &lt;0.001 |
+| **Neuroimaging** |  |  |  |  |  |
+| Acquisition Site |  |  |  | chi<sup>2</sup> = 3.62, df = 4 | 0.459 |
+| Aachen | 160 (24%) | 75 (27%) | 85 (22%) |  |  |
+| Basel | 71 (11%) | 27 (9.7%) | 44 (11%) |  |  |
+| Birmingham | 177 (26%) | 66 (24%) | 111 (28%) |  |  |
+| Frankfurt | 139 (21%) | 59 (21%) | 80 (20%) |  |  |
+| Southampton | 123 (18%) | 52 (19%) | 71 (18%) |  |  |
+| Mean CT (mm) | 2.51 &plusmn; 0.10<br>[2.19-2.84] | 2.50 &plusmn; 0.10<br>[2.19-2.82] | 2.51 &plusmn; 0.10<br>[2.19-2.84] | W = 53207.50 | 0.588 |
+| **RPQ Subscales** |  |  |  |  |  |
+| PA Subscale | 2.21 &plusmn; 3.40<br>[0-19] | 4.01 &plusmn; 4.27<br>[0-19] | 0.93 &plusmn; 1.70<br>[0-11] | W = 82819.00 | &lt;0.001 |
+| RA Subscale | 7.9 &plusmn; 5.1<br>[0-22] | 11.3 &plusmn; 5.1<br>[0-22] | 5.5 &plusmn; 3.6<br>[0-20] | W = 88920.50 | &lt;0.001 |
+
+*Note:* Values are expressed as mean &plusmn; SD [range] or n (%). FSIQ = Full-Scale Intelligence Quotient Score; CT = Cortical Thickness; RPQ = Reactive Proactive Aggression Questionnaire; RA = Reactive Aggression; PA = Proactive Aggression. <sup>&dagger;</sup> n (%); mean &plusmn; SD [range]. <sup>2</sup> Pearson's chi-squared test; Wilcoxon rank sum test.
 
 </section>
 
