@@ -50,7 +50,8 @@ title: Neuroanatomical and transcriptomic underpinnings of functional aggression
   <a href="#gene-decoding"><span>Gene Decoding</span><span class="section-nav__number">05</span></a>
   <a href="#functional-enrichment"><span>Functional Enrichment</span><span class="section-nav__number">06</span></a>
   <a href="#data-and-code-availability"><span>Data and Code Availability</span><span class="section-nav__number">07</span></a>
-  <a href="#contact"><span>Contact</span><span class="section-nav__number">08</span></a>
+  <a href="#acknowledgments"><span>Acknowledgments</span><span class="section-nav__number">08</span></a>
+  <a href="#contact"><span>Contact</span><span class="section-nav__number">09</span></a>
 </nav>
 
 <section class="section-card" id="participants" markdown="1">
@@ -240,12 +241,24 @@ Include a short table of top enriched terms and provide a downloadable file with
 - Code used for analysis and generation of the figures will be made available upon publication.
 </section>
 
-<section class="section-card" id="contact" markdown="1">
+<section class="section-card" id="acknowledgments" markdown="1">
   <div class="section-card__top">
     <span class="section-card__index">08</span>
     <div>
+      <h2>Acknowledgments</h2>
+      <p class="section-card__intro">Funding support for the study.</p>
+    </div>
+  </div>
+
+This study was funded by the German Research Foundation (DFG) - Project number 512007073 - TRR 379.
+</section>
+
+<section class="section-card" id="contact" markdown="1">
+  <div class="section-card__top">
+    <span class="section-card__index">09</span>
+    <div>
       <h2>Contact</h2>
-      <p class="section-card__intro">For more information about this research contact.</p>
+      <p class="section-card__intro">For more information about this research contact:</p>
     </div>
   </div>
 
