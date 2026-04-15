@@ -514,13 +514,7 @@ th {
   }
 
   .section-nav {
-    gap: 0.6rem;
-    padding: 0.7rem;
-    border-radius: 18px;
-  }
-
-  .section-nav a {
-    flex-basis: 100%;
+    display: none;
   }
 
   .section-card__top {
