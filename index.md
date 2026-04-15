@@ -257,6 +257,16 @@ This study was funded by the German Research Foundation (DFG) - Project number 5
     </div>
   </div>
 
-**Alessio Giacomel**  
+<p class="contact__name-line">
+  <strong>Alessio Giacomel</strong>
+  <a class="contact__orcid" href="https://orcid.org/0000-0002-7784-2041" target="_blank" rel="me noopener noreferrer" aria-label="Visit Alessio Giacomel's ORCID profile">
+    <svg class="contact__orcid-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="12" fill="#a6ce39" />
+      <circle cx="8.2" cy="7.1" r="1.35" fill="#ffffff" />
+      <rect x="6.9" y="9.1" width="2.5" height="7.9" rx="0.45" fill="#ffffff" />
+      <path fill="#ffffff" d="M12.2 7.1h3.1c3.3 0 5.7 2.1 5.7 4.95S18.6 17 15.3 17h-3.1zm2.7 2.14h-.42v5.62h.42c2.2 0 3.76-1.1 3.76-2.81 0-1.72-1.56-2.82-3.76-2.82z" />
+    </svg>
+  </a>
+</p>
 [giacomel@med.uni-frankfurt.de](mailto:giacomel@med.uni-frankfurt.de)
 </section>

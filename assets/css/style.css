@@ -416,6 +416,36 @@ body::after {
   color: var(--accent);
 }
 
+.contact__name-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 0.2rem;
+}
+
+.contact__orcid {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.contact__orcid:hover,
+.contact__orcid:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(166, 206, 57, 0.28);
+}
+
+.contact__orcid-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 sup {
   font-size: 0.7em;
 }
