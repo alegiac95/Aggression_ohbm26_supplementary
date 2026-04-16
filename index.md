@@ -165,27 +165,61 @@ Sensitivity analyses controlling for diagnostic group or comorbid ADHD showed th
     <span class="section-card__index">04</span>
     <div>
       <h2>Neuroreceptor Similarity</h2>
-      <p class="section-card__intro">Describe how the statistical map was compared with neurotransmitter or receptor reference maps.</p>
+      <p class="section-card__intro">Spatial correspondence analyses relating aggression-associated cortical maps to normative PET-derived receptor and transporter maps.</p>
     </div>
   </div>
 
-### Reference Maps
+### Reference Maps and Similarity Analysis
 
-- Source atlas or dataset:
-- Receptors or transporters tested:
-- Spatial resolution or parcellation:
-- Preprocessing or harmonization steps:
+To contextualize the cortical correlates of RA and PA within neurochemical architecture, we quantified spatial correspondence between each aggression-derived cortical effect map and a set of normative PET-derived neurotransmitter receptor and transporter maps. Reference maps were obtained from the [neuromaps List of Maps](https://netneurolab.github.io/neuromaps/listofmaps.html), and the set used here comprised 37 PET-derived maps spanning 19 receptor or transporter targets across nine neurotransmitter systems.
 
-### Similarity Analysis
+All reference maps were z-scored prior to analysis and resampled to the RA and PA t-maps. Medial wall vertices were excluded using a common cortical mask applied identically to the aggression maps, receptor maps, and surrogate maps. Spatial correspondence between each aggression map and each receptor map was quantified using Pearson correlation across cortical vertices. Statistical significance was evaluated using spatial autocorrelation-preserving surrogate maps generated with a variogram-matching null model. Two-tailed p-values were computed as the proportion of null correlations with absolute value greater than or equal to the observed correlation. For each aggression map, the k-nearest-neighbor parameter was selected by evaluating k in {1000, 4000, 10000} with 100 preliminary surrogates, after which the selected k was used to generate 1000 surrogates for inference.
 
-1. Match the GLM-derived map to the receptor-map space
-2. Compute the similarity metric
-3. Generate appropriate spatially constrained null models
-4. Test significance and correct across receptors or tracers
+The reference maps included in the current analysis are listed below.
 
-### Reporting
+| Study | Tracer | System | Target | n subjects |
+| --- | --- | --- | --- | ---: |
+| aghourian2017 | feobv | acetylcholine | VAChT | 18 |
+| alarkurtti2015 | raclopride | dopamine | D2 | 7 |
+| bedard2019 | feobv | acetylcholine | VAChT | 5 |
+| beliveau2017 | az10419369 | serotonin | 5-HT1b | 36 |
+| beliveau2017 | cimbi36 | serotonin | 5-HT2a | 29 |
+| beliveau2017 | cumi101 | serotonin | 5-HT1a | 8 |
+| beliveau2017 | dasb | serotonin | 5-HTT | 100 |
+| beliveau2017 | sb207145 | serotonin | 5-HT4 | 59 |
+| ding2010 | mrb | norepinephrine | NET | 77 |
+| dubois2015 | abp688 | glutamate | mGluR5 | 28 |
+| dukart2018 | flumazenil | GABA | GABAa | 6 |
+| dukart2018 | fpcit | dopamine | DAT | 174 |
+| fazio2016 | madam | serotonin | 5-HTT | 10 |
+| gallezot2010 | p943 | serotonin | 5-HT1b | 23 |
+| gallezot2017 | gsk189254 | histamine | H3 | 8 |
+| hesse2017 | methylreboxetine | norepinephrine | NET | 10 |
+| hillmer2016 | flubatine | acetylcholine | a4b2 | 30 |
+| jaworska2020 | fallypride | dopamine | D2 | 49 |
+| kaller2017 | sch23390 | dopamine | D1 | 13 |
+| kantonen2020 | carfentanil | opioid | MOR | 204 |
+| laurikainen2018 | fmpepd2 | cannabinoid | CB1 | 22 |
+| naganawa2020 | lsn3172176 | acetylcholine | M1 | 24 |
+| norgaard2021 | flumazenil | GABA | GABAa | 16 |
+| normandin2015 | omar | cannabinoid | CB1 | 77 |
+| radnakrishnan2018 | gsk215083 | serotonin | 5-HT6 | 30 |
+| rosaneto | abp688 | glutamate | mGluR5 | 22 |
+| sandiego2015 | flb457 | dopamine | D2 | 55 |
+| sasaki2012 | fepe2i | dopamine | DAT | 6 |
+| savli2012 | altanserin | serotonin | 5-HT2a | 19 |
+| savli2012 | dasb | serotonin | 5-HTT | 18 |
+| savli2012 | p943 | serotonin | 5-HT1b | 23 |
+| savli2012 | way100635 | serotonin | 5-HT1a | 35 |
+| smart2019 | abp688 | glutamate | mGluR5 | 73 |
+| smith2017 | flb457 | dopamine | D2 | 37 |
+| tuominen | feobv | acetylcholine | VAChT | 4 |
+| turtonen2020 | carfentanil | opioid | MOR | 39 |
+| vijay2018 | ly2795050 | opioid | KOR | 28 |
 
-Summarize how similarity strength, direction, and corrected significance are presented on the poster and on this page.
+### Results
+
+Similarity results will be reported here as effect direction, magnitude, and corrected significance for each receptor and transporter map.
 </section>
 
 <section class="section-card" id="gene-decoding" markdown="1">
