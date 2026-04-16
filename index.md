@@ -233,7 +233,7 @@ The reference maps included in the current analysis are listed below.
 
 ### Results
 
-The IDP for the main effect of RA was significantly correlated with the 5-HT4 serotonin receptor (r=-0.20, pspin<0.05) and with the histamine H3 receptor (r=0.13, pspin<0.05). The PA IDP, on the other hand, was significantly correlated with two NRTM maps from the serotonin system (5-HT4: r=0.30, pspin<0.05; 5-HT2A: r=0.20, p<sub>spin</sub><0.05).
+The IDP for the main effect of RA was significantly correlated with the 5-HT4 serotonin receptor (r=-0.20, p<sub>spin</sub><0.05) and with the histamine H3 receptor (r=0.13, p<sub>spin</sub><0.05). The PA IDP, on the other hand, was significantly correlated with two NRTM maps from the serotonin system (5-HT4: r=0.30, p<sub>spin</sub><0.05; 5-HT2A: r=0.20, p<sub>spin</sub><0.05).
 
 <figure class="content-figure">
   <img src="assets/images/receptor_similarity.png" alt="IDP-receptor similarities">
