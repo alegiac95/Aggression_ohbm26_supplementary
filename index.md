@@ -136,8 +136,16 @@ $$
 Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT<sub>0</sub> was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p<sub>clust</sub> &lt; 0.05. 
 
 ### Results
+RA showed a markedly left-lateralized significant association (RFT-corrected p<0.05) with CT (Figure 1a). Here, negative associations between RA and decreased CT (blue–light blue; Fig. 1a, bottom) was most pronounced in the left lateral posterior temporal cortex, spanning superior and middle temporal regions (approximately Brodmann Area [BA] 22/21) and extending toward the temporo-occipital junction (approximately BA 37/19). Positive associations between RA and increased CT (red–orange; Fig. 1a, bottom) was broader in extent and mainly left-lateralized, with peak effects in medial superior frontal cortex (approximately BA8/9) and anterior cingulate cortex (approximately BA24/32). Additional smaller thickening clusters were observed in left dorsolateral superior frontal/dorsal frontoparietal regions (approximately BA8/9/6) and in left ventral occipito-temporal/medial occipital cortex in the lingual–parahippocampal vicinity (approximately BA18/19 and BA27/28/35/36).
+PA showed significant associations (RFT-corrected p<0.05) with CT characterized by lateral temporo-parietal increase in CT together with lower posterior–ventral CT (Figure 1B). Cortical thickening (red–orange; Fig. 1b, top) was most prominent in the left lateral posterior temporal cortex (approximately BA22/21) and extended into the temporo-parietal junction/inferior parietal territory (approximately BA39/40), with a smaller homologous cluster in the right posterior temporal cortex (approximately BA22/21). In contrast, cortical thinning (blue–light blue; Fig. 1b, bottom) was observed on the medial surface, involving posterior midline cortex consistent with posterior cingulate and precuneus (approximately BA23/31 and BA7), and extended into ventral occipito-temporal/medial occipital regions in the lingual–parahippocampal vicinity (approximately BA18/19 and BA27/28/35/36), with additional small right ventral temporal involvement (approximately BA37).
+
+<div align="center">
+  <img src="assets/images/glm_figure.png" alt="Vertex-wise GLM results" width="400">
+</div>
 
 
+
+### Sensitivity analyses
 
 
 </section>
