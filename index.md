@@ -269,26 +269,23 @@ Gene decoding results will be reported here as ranked gene associations, overlap
     <span class="section-card__index">06</span>
     <div>
       <h2>Functional Enrichment</h2>
-      <p class="section-card__intro">This section should explain how the decoded gene set was translated into biological interpretation.</p>
+      <p class="section-card__intro">Functional annotation of aggression-associated gene sets using cell-type enrichment, ontology enrichment, and pathway analysis.</p>
     </div>
   </div>
 
-### Input Gene Set
+### Cell Type Enrichment
 
-- Ranked list or thresholded genes:
-- Positive and negative tails, if analyzed separately:
-- Background gene set:
+Cell-type specificity was assessed separately for the RA-specific, PA-specific, and shared gene sets using [Expression Weighted Cell-type Enrichment (EWCE)](https://nathanskene.github.io/EWCE/) in R, with cell-type reference profiles derived from the Blue Lake et al. human cortical dataset. For each gene set, EWCE enrichment statistics were computed relative to the same background gene universe used in the transcriptomic overlap analyses.
 
-### Enrichment Framework
+### Gene Ontologies Enrichment
 
-- Databases tested:
-- Statistical test:
-- Multiple-testing correction:
-- Software or package used:
+Functional enrichment analysis and comparative pathway analysis were performed using [Metascape](https://metascape.org/) (accessed December 14, 2025). Three gene lists were analyzed, corresponding to genes uniquely associated with RA, genes uniquely associated with PA, and genes shared between RA and PA, all submitted as HGNC gene symbols. Enrichment was evaluated against [Gene Ontology (GO)](https://geneontology.org/) and [Reactome](https://reactome.org/) annotations using the cumulative hypergeometric test implemented in Metascape. Statistical significance was assessed using Metascape-reported p-values and false discovery rates, with a custom background consisting of all AHBA genes carried forward from the gene decoding step (N = 15,633).
 
-### Reporting
+To reduce redundancy among enriched terms, Metascape clustered significantly enriched ontology and pathway terms and reported representative terms for each cluster. Comparative pathway analysis across the RA-specific, PA-specific, and shared gene sets was used to identify convergent and distinct biological themes associated with the two aggression dimensions.
 
-Include a short table of top enriched terms and provide a downloadable file with the full enrichment results.
+### Results
+
+Functional enrichment results will be reported here as cell-type enrichments, top ontology and pathway terms, representative clusters, and links to the full enrichment tables.
 </section>
 
 <section class="section-card" id="data-and-code-availability" markdown="1">
