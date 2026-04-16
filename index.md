@@ -262,6 +262,11 @@ Downstream analyses were conducted on the sets of genes significantly associated
 ### Results
 
 Gene decoding results will be reported here as ranked gene associations, overlap between RA- and PA-related gene sets, and links to the full gene lists or supplementary tables.
+
+<figure class="content-figure">
+  <img src="assets/images/genetics_decoding.png" alt="Decoded genes">
+</figure>
+
 </section>
 
 <section class="section-card" id="functional-enrichment" markdown="1">
