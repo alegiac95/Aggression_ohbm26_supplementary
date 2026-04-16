@@ -140,7 +140,7 @@ RA showed a markedly left-lateralized significant association (RFT-corrected p<0
 PA showed significant associations (RFT-corrected p<0.05) with CT characterized by lateral temporo-parietal increase in CT together with lower posterior–ventral CT (Figure 1B). Cortical thickening (red–orange; Fig. 1b, top) was most prominent in the left lateral posterior temporal cortex (approximately BA22/21) and extended into the temporo-parietal junction/inferior parietal territory (approximately BA39/40), with a smaller homologous cluster in the right posterior temporal cortex (approximately BA22/21). In contrast, cortical thinning (blue–light blue; Fig. 1b, bottom) was observed on the medial surface, involving posterior midline cortex consistent with posterior cingulate and precuneus (approximately BA23/31 and BA7), and extended into ventral occipito-temporal/medial occipital regions in the lingual–parahippocampal vicinity (approximately BA18/19 and BA27/28/35/36), with additional small right ventral temporal involvement (approximately BA37).
 
 <div align="center">
-  <img src="assets/images/glm_figure.png" alt="Vertex-wise GLM results" width="400">
+  <img src="assets/images/glm_figure.png" alt="Vertex-wise GLM results" width="800">
 </div>
 
 
