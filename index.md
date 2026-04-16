@@ -246,27 +246,22 @@ The IDP for the main effect of RA was significantly correlated with the 5-HT4 se
     <span class="section-card__index">05</span>
     <div>
       <h2>Gene Decoding</h2>
-      <p class="section-card__intro">Use this section to describe the transcriptomic interpretation of the imaging result.</p>
+      <p class="section-card__intro">Imaging-transcriptomic decoding of aggression-associated cortical maps using postmortem human gene-expression data.</p>
     </div>
   </div>
 
-### Transcriptomic Resource
+### AHBA Gene Expression Decoding
 
-- Gene-expression atlas:
-- Donor handling and normalization:
-- Regional matching strategy:
-- Hemisphere or parcel restrictions, if any:
+To relate cortical aggression phenotypes to transcriptomic architecture, we performed an imaging-transcriptomic analysis51-53 using the main-effect RA and PA statistical maps from the vertex-wise GLMs as image-derived phenotypes (IDPs), following the workflow described in [Ecker et al., 2025](https://www.nature.com/articles/s41467-025-61927-3). Gene-expression data were obtained from the [Allen Human Brain Atlas (AHBA)](https://human.brain-map.org/) and processed with the [abagen toolbox](https://abagen.readthedocs.io/en/latest/index.html), including standard quality control and normalization, before being mapped to a FreeSurfer `fsaverage` cortical template.
 
-### Gene Association Analysis
+Spatially dense cortical expression maps were generated from AHBA sampling locations (1,670 cortical sample points), yielding cortical expression estimates for 15,633 genes. For each IDP (RA and PA), we quantified correspondence with each gene's cortical expression profile using Pearson correlation while accounting for spatial autocorrelation via a spatial-null framework, with spatial autocorrelation-preserving permutations as described in [Ecker et al., 2025](https://www.nature.com/articles/s41467-025-61927-3). A total of 1,000 null permutations were used to derive two-tailed p-values, and resulting gene-wise p-values were corrected for multiple comparisons across the 15,633 genes using false discovery rate control.
 
-- Imaging map used as input:
-- Gene scoring or association method:
-- Null model or permutation framework:
-- Significance threshold or FDR rule:
+Downstream analyses were conducted on the sets of genes significantly associated with the RA and/or PA IDPs. Gene-set overlap between RA- and PA-associated genes was quantified using Fisher's exact test, implemented as a 2 x 2 contingency table over the full background of genes retained from the imaging-transcriptomic analysis.
 
-### Reporting
 
-Link the full ranked gene list or supplementary table here if only top hits are shown on the poster.
+### Results
+
+Gene decoding results will be reported here as ranked gene associations, overlap between RA- and PA-related gene sets, and links to the full gene lists or supplementary tables.
 </section>
 
 <section class="section-card" id="functional-enrichment" markdown="1">
