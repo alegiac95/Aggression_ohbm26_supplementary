@@ -117,13 +117,13 @@ Structural scans were processed with [FreeSurfer 6.0.0](http://surfer.nmr.mgh.ha
     <span class="section-card__index">03</span>
     <div>
       <h2>GLM Analysis</h2>
-      <p class="section-card__intro">Vertex-wise general linear modeling framework used to test associations between cortical thickness and aggressive behavior.</p>
+      <p class="section-card__intro">Vertex-wise general linear modeling framework used to test associations between cortical thickness and reactive and proactive aggression.</p>
     </div>
   </div>
 
 ### Model Overview
 
-Vertex-wise generalized linear models (GLMs) were estimated with the [BrainStat Python toolbox](https://brainstat.readthedocs.io/en/master/) using cortical thickness data as the outcome measure. The model included linear and quadratic age terms to capture potential nonlinear developmental effects, sex, full-scale intelligence quotient (FSIQ), reactive aggression (RA), proactive aggression (PA), sex-by-RA and sex-by-PA interaction terms, acquisition site, and global mean cortical thickness (CT<sub>0</sub>).
+Vertex-wise generalized linear models (GLMs) were estimated with the [BrainStat Python toolbox](https://brainstat.readthedocs.io/en/master/) using cortical thickness as the outcome measure. The model included linear and quadratic age terms to capture potential nonlinear developmental effects, as well as sex, full-scale intelligence quotient (FSIQ), reactive aggression (RA), proactive aggression (PA), sex-by-RA and sex-by-PA interaction terms, acquisition site, and global mean cortical thickness (CT<sub>0</sub>).
 
 $$
 \begin{aligned}
@@ -133,26 +133,30 @@ $$
 \end{aligned}
 $$
 
-Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT<sub>0</sub> was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p<sub>clust</sub> &lt; 0.05. 
+Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT<sub>0</sub> was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p<sub>clust</sub> &lt; 0.05.
 
 ### Results
-RA showed a markedly left-lateralized significant association (RFT-corrected p<0.05) with CT (Figure 1a). Here, negative associations between RA and decreased CT (blue–light blue; Fig. 1a, bottom) was most pronounced in the left lateral posterior temporal cortex, spanning superior and middle temporal regions (approximately Brodmann Area [BA] 22/21) and extending toward the temporo-occipital junction (approximately BA 37/19). Positive associations between RA and increased CT (red–orange; Fig. 1a, bottom) was broader in extent and mainly left-lateralized, with peak effects in medial superior frontal cortex (approximately BA8/9) and anterior cingulate cortex (approximately BA24/32). Additional smaller thickening clusters were observed in left dorsolateral superior frontal/dorsal frontoparietal regions (approximately BA8/9/6) and in left ventral occipito-temporal/medial occipital cortex in the lingual–parahippocampal vicinity (approximately BA18/19 and BA27/28/35/36).
-PA showed significant associations (RFT-corrected p<0.05) with CT characterized by lateral temporo-parietal increase in CT together with lower posterior–ventral CT (Figure 1B). Cortical thickening (red–orange; Fig. 1b, top) was most prominent in the left lateral posterior temporal cortex (approximately BA22/21) and extended into the temporo-parietal junction/inferior parietal territory (approximately BA39/40), with a smaller homologous cluster in the right posterior temporal cortex (approximately BA22/21). In contrast, cortical thinning (blue–light blue; Fig. 1b, bottom) was observed on the medial surface, involving posterior midline cortex consistent with posterior cingulate and precuneus (approximately BA23/31 and BA7), and extended into ventral occipito-temporal/medial occipital regions in the lingual–parahippocampal vicinity (approximately BA18/19 and BA27/28/35/36), with additional small right ventral temporal involvement (approximately BA37).
+Reactive aggression showed a marked left-lateralized association with cortical thickness (RFT-corrected p &lt; 0.05; Figure 1a). Negative associations between RA and lower CT (blue-light blue; Fig. 1a, bottom) were most prominent in the left lateral posterior temporal cortex, spanning superior and middle temporal regions (approximately Brodmann areas [BA] 22/21) and extending toward the temporo-occipital junction (approximately BA 37/19). Positive associations between RA and higher CT (red-orange; Fig. 1a, top) were broader in extent and also predominantly left-lateralized, with peak effects in medial superior frontal cortex (approximately BA 8/9) and anterior cingulate cortex (approximately BA 24/32). Additional smaller thickening clusters were observed in left dorsolateral superior frontal and dorsal frontoparietal regions (approximately BA 8/9/6), as well as in left ventral occipito-temporal and medial occipital cortex in the lingual-parahippocampal vicinity (approximately BA 18/19 and BA 27/28/35/36).
+
+Proactive aggression also showed significant associations with cortical thickness (RFT-corrected p &lt; 0.05; Figure 1b), characterized by increased CT in lateral temporo-parietal regions together with lower CT in posterior-ventral cortex. Cortical thickening (red-orange; Fig. 1b, top) was most prominent in the left lateral posterior temporal cortex (approximately BA 22/21) and extended into the temporo-parietal junction and inferior parietal territory (approximately BA 39/40), with a smaller homologous cluster in the right posterior temporal cortex (approximately BA 22/21). In contrast, cortical thinning (blue-light blue; Fig. 1b, bottom) was observed on the medial surface, involving posterior midline cortex consistent with posterior cingulate and precuneus (approximately BA 23/31 and BA 7), and extended into ventral occipito-temporal and medial occipital regions in the lingual-parahippocampal vicinity (approximately BA 18/19 and BA 27/28/35/36), with an additional small cluster in the right ventral temporal cortex (approximately BA 37).
 
 <div align="center">
   <img src="assets/images/glm_figure.png" alt="Vertex-wise GLM results" width="600">
 </div>
 
 
-Vertex-level effect sizes (Cohen’s f) for RA and PA were small overall, ranging from 0 to 0.189 (0.055 ± 0.037) and from 0 to 0.193 (0.035 ± 0.027), respectively (Figure 1c). The largest effect sizes for RA were observed along the medial frontal–parietal midline, with smaller maxima in dorsolateral frontal and temporo-parietal cortex (Figure 1d, top). The largest effect sizes for PA were concentrated more posteriorly, with peak vertices in posterior medial cortex (medial parietal–occipital territory) and ventral occipito-temporal cortex, alongside secondary maxima in the temporo-parietal junction (Figure 1d, bottom). Effect sizes for the main effects of both forms of aggression were small compared to other model terms (Figure 1c), such as mean cortical thickness (CT0; f: 0.516 ± 0.137), acquisition site (f: 0.268 ± 0.09), age (f: 0.263 ± 0.116), and biological sex (f: 0.093 ± 0.062). 
+Vertex-level effect sizes (Cohen's f) for RA and PA were small overall, ranging from 0 to 0.189 (0.055 ± 0.037) and from 0 to 0.193 (0.035 ± 0.027), respectively (Figure 1c). The largest effect sizes for RA were observed along the medial frontal-parietal midline, with smaller maxima in dorsolateral frontal and temporo-parietal cortex (Figure 1d, top). The largest effect sizes for PA were concentrated more posteriorly, with peak vertices in posterior medial cortex (medial parietal-occipital territory) and ventral occipito-temporal cortex, alongside secondary maxima in the temporo-parietal junction (Figure 1d, bottom). Overall, effect sizes for the main effects of both forms of aggression were small relative to other model terms (Figure 1c), including mean cortical thickness (CT<sub>0</sub>; f = 0.516 ± 0.137), acquisition site (f = 0.268 ± 0.09), age (f = 0.263 ± 0.116), and biological sex (f = 0.093 ± 0.062).
 
 <div align="center">
   <img src="assets/images/glm_effect_sizes.png" alt="Vertex-wise GLM effect sizes" width="600">
 </div>
 
 
-### Sensitivity analyses
+### Sensitivity Analyses
 
+As sensitivity analyses, the GLM was re-estimated twice by additionally including either diagnostic group (CD vs HC) or ADHD comorbidity, to assess the stability of the identified clusters. ADHD comorbidity was defined as the presence of ADHD symptoms at any time point on the Kiddie Schedule for Affective Disorders and Schizophrenia - Present and Lifetime Version (K-SADS-PL) administered in the FemNAT-CD study.
+
+Sensitivity analyses controlling for diagnostic group or comorbid ADHD showed that the spatial patterns of association were highly preserved relative to the primary model (t-map correlations, r = 0.94-0.99, p<sub>spin</sub> &lt; 0.001). Using the Dice coefficient to quantify overlap of the RFT cluster-corrected significant vertices, PA effects were essentially unchanged after adjustment for ADHD (Dice = 0.985), whereas adjustment for diagnostic group yielded a moderate reduction in overlap (Dice = 0.753). For RA, overlap was reduced when either covariate was included (Dice = 0.622 for ADHD; Dice = 0.704 for diagnostic group), suggesting that the overall spatial pattern was preserved while the number of surviving significant vertices was reduced.
 
 </section>
 
