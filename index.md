@@ -177,45 +177,45 @@ All reference maps were z-scored prior to analysis and resampled to the RA and P
 
 The reference maps included in the current analysis are listed below.
 
-| Study | Tracer | System | Target | n subjects |
-| --- | --- | --- | --- | ---: |
-| aghourian2017 | feobv | acetylcholine | VAChT | 18 |
-| alarkurtti2015 | raclopride | dopamine | D2 | 7 |
-| bedard2019 | feobv | acetylcholine | VAChT | 5 |
-| beliveau2017 | az10419369 | serotonin | 5-HT1b | 36 |
-| beliveau2017 | cimbi36 | serotonin | 5-HT2a | 29 |
-| beliveau2017 | cumi101 | serotonin | 5-HT1a | 8 |
-| beliveau2017 | dasb | serotonin | 5-HTT | 100 |
-| beliveau2017 | sb207145 | serotonin | 5-HT4 | 59 |
-| ding2010 | mrb | norepinephrine | NET | 77 |
-| dubois2015 | abp688 | glutamate | mGluR5 | 28 |
-| dukart2018 | flumazenil | GABA | GABAa | 6 |
-| dukart2018 | fpcit | dopamine | DAT | 174 |
-| fazio2016 | madam | serotonin | 5-HTT | 10 |
-| gallezot2010 | p943 | serotonin | 5-HT1b | 23 |
-| gallezot2017 | gsk189254 | histamine | H3 | 8 |
-| hesse2017 | methylreboxetine | norepinephrine | NET | 10 |
-| hillmer2016 | flubatine | acetylcholine | a4b2 | 30 |
-| jaworska2020 | fallypride | dopamine | D2 | 49 |
-| kaller2017 | sch23390 | dopamine | D1 | 13 |
-| kantonen2020 | carfentanil | opioid | MOR | 204 |
-| laurikainen2018 | fmpepd2 | cannabinoid | CB1 | 22 |
-| naganawa2020 | lsn3172176 | acetylcholine | M1 | 24 |
-| norgaard2021 | flumazenil | GABA | GABAa | 16 |
-| normandin2015 | omar | cannabinoid | CB1 | 77 |
-| radnakrishnan2018 | gsk215083 | serotonin | 5-HT6 | 30 |
-| rosaneto | abp688 | glutamate | mGluR5 | 22 |
-| sandiego2015 | flb457 | dopamine | D2 | 55 |
-| sasaki2012 | fepe2i | dopamine | DAT | 6 |
-| savli2012 | altanserin | serotonin | 5-HT2a | 19 |
-| savli2012 | dasb | serotonin | 5-HTT | 18 |
-| savli2012 | p943 | serotonin | 5-HT1b | 23 |
-| savli2012 | way100635 | serotonin | 5-HT1a | 35 |
-| smart2019 | abp688 | glutamate | mGluR5 | 73 |
-| smith2017 | flb457 | dopamine | D2 | 37 |
-| tuominen | feobv | acetylcholine | VAChT | 4 |
-| turtonen2020 | carfentanil | opioid | MOR | 39 |
-| vijay2018 | ly2795050 | opioid | KOR | 28 |
+| System | Target | Tracer | N Subjects | Study |
+| --- | --- | --- | ---: | --- |
+| Acetylcholine | VAChT | Feobv | 18 | (Aghourian, 2017) |
+| Acetylcholine | VAChT | Feobv | 5 | (Bedard, 2019) |
+| Acetylcholine | VAChT | Feobv | 4 | (Tuominen, N.D.) |
+| Acetylcholine | A4B2 | Flubatine | 30 | (Hillmer, 2016) |
+| Acetylcholine | M1 | Lsn3172176 | 24 | (Naganawa, 2020) |
+| Cannabinoid | CB1 | Fmpepd2 | 22 | (Laurikainen, 2018) |
+| Cannabinoid | CB1 | Omar | 77 | (Normandin, 2015) |
+| Dopamine | D2 | Fallypride | 49 | (Jaworska, 2020) |
+| Dopamine | DAT | Fepe2i | 6 | (Sasaki, 2012) |
+| Dopamine | D2 | Flb457 | 55 | (Sandiego, 2015) |
+| Dopamine | D2 | Flb457 | 37 | (Smith, 2017) |
+| Dopamine | DAT | Fpcit | 174 | (Dukart, 2018) |
+| Dopamine | D2 | Raclopride | 7 | (Alarkurtti, 2015) |
+| Dopamine | D1 | Sch23390 | 13 | (Kaller, 2017) |
+| GABA | GABAA | Flumazenil | 6 | (Dukart, 2018) |
+| GABA | GABAA | Flumazenil | 16 | (Norgaard, 2021) |
+| Glutamate | mGluR5 | Abp688 | 28 | (DuBois, 2015) |
+| Glutamate | mGluR5 | Abp688 | 22 | (Rosa-Neto, N.D.) |
+| Glutamate | mGluR5 | Abp688 | 73 | (Smart, 2019) |
+| Histamine | H3 | Gsk189254 | 8 | (Gallezot, 2017) |
+| Norepinephrine | NET | Methylreboxetine | 10 | (Hesse, 2017) |
+| Norepinephrine | NET | Mrb | 77 | (Ding, 2010) |
+| Opioid | MOR | Carfentanil | 204 | (Kantonen, 2020) |
+| Opioid | MOR | Carfentanil | 39 | (Turtonen, 2020) |
+| Opioid | KOR | Ly2795050 | 28 | (Vijay, 2018) |
+| Serotonin | 5-HT2a | Altanserin | 19 | (Savli, 2012) |
+| Serotonin | 5-HT1b | Az10419369 | 36 | (Beliveau, 2017) |
+| Serotonin | 5-HT2a | Cimbi36 | 29 | (Beliveau, 2017) |
+| Serotonin | 5-HT1a | Cumi101 | 8 | (Beliveau, 2017) |
+| Serotonin | 5-HTT | Dasb | 100 | (Beliveau, 2017) |
+| Serotonin | 5-HTT | Dasb | 18 | (Savli, 2012) |
+| Serotonin | 5-HT6 | Gsk215083 | 30 | (Radhakrishnan, 2018) |
+| Serotonin | 5-HTT | Madam | 10 | (Fazio, 2016) |
+| Serotonin | 5-HT1b | P943 | 23 | (Gallezot, 2010) |
+| Serotonin | 5-HT1b | P943 | 23 | (Savli, 2012) |
+| Serotonin | 5-HT4 | Sb207145 | 59 | (Beliveau, 2017) |
+| Serotonin | 5-HT1a | Way100635 | 35 | (Savli, 2012) |
 
 ### Results
 
