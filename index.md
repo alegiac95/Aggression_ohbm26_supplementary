@@ -140,9 +140,15 @@ RA showed a markedly left-lateralized significant association (RFT-corrected p<0
 PA showed significant associations (RFT-corrected p<0.05) with CT characterized by lateral temporo-parietal increase in CT together with lower posterior–ventral CT (Figure 1B). Cortical thickening (red–orange; Fig. 1b, top) was most prominent in the left lateral posterior temporal cortex (approximately BA22/21) and extended into the temporo-parietal junction/inferior parietal territory (approximately BA39/40), with a smaller homologous cluster in the right posterior temporal cortex (approximately BA22/21). In contrast, cortical thinning (blue–light blue; Fig. 1b, bottom) was observed on the medial surface, involving posterior midline cortex consistent with posterior cingulate and precuneus (approximately BA23/31 and BA7), and extended into ventral occipito-temporal/medial occipital regions in the lingual–parahippocampal vicinity (approximately BA18/19 and BA27/28/35/36), with additional small right ventral temporal involvement (approximately BA37).
 
 <div align="center">
-  <img src="assets/images/glm_figure.png" alt="Vertex-wise GLM results" width="800">
+  <img src="assets/images/glm_figure.png" alt="Vertex-wise GLM results" width="600">
 </div>
 
+
+Vertex-level effect sizes (Cohen’s f) for RA and PA were small overall, ranging from 0 to 0.189 (0.055 ± 0.037) and from 0 to 0.193 (0.035 ± 0.027), respectively (Figure 1c). The largest effect sizes for RA were observed along the medial frontal–parietal midline, with smaller maxima in dorsolateral frontal and temporo-parietal cortex (Figure 1d, top). The largest effect sizes for PA were concentrated more posteriorly, with peak vertices in posterior medial cortex (medial parietal–occipital territory) and ventral occipito-temporal cortex, alongside secondary maxima in the temporo-parietal junction (Figure 1d, bottom). Effect sizes for the main effects of both forms of aggression were small compared to other model terms (Figure 1c), such as mean cortical thickness (CT0; f: 0.516 ± 0.137), acquisition site (f: 0.268 ± 0.09), age (f: 0.263 ± 0.116), and biological sex (f: 0.093 ± 0.062). 
+
+<div align="center">
+  <img src="assets/images/glm_effect_sizes.png" alt="Vertex-wise GLM effect sizes" width="600">
+</div>
 
 
 ### Sensitivity analyses
