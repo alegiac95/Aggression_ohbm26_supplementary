@@ -123,7 +123,7 @@ Structural scans were processed with [FreeSurfer 6.0.0](http://surfer.nmr.mgh.ha
 
 ### Model Overview
 
-Vertex-wise generalized linear models (GLMs) were estimated with the BrainStat Python toolbox using cortical thickness data as the outcome measure. The model included linear and quadratic age terms to capture potential nonlinear developmental effects, sex, full-scale intelligence quotient (FSIQ), reactive aggression (RA), proactive aggression (PA), sex-by-RA and sex-by-PA interaction terms, acquisition site, and global mean cortical thickness (CT<sub>0</sub>).
+Vertex-wise generalized linear models (GLMs) were estimated with the [BrainStat Python toolbox](https://brainstat.readthedocs.io/en/master/) using cortical thickness data as the outcome measure. The model included linear and quadratic age terms to capture potential nonlinear developmental effects, sex, full-scale intelligence quotient (FSIQ), reactive aggression (RA), proactive aggression (PA), sex-by-RA and sex-by-PA interaction terms, acquisition site, and global mean cortical thickness (CT<sub>0</sub>).
 
 $$
 \begin{aligned}
@@ -133,7 +133,7 @@ $$
 \end{aligned}
 $$
 
-Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT<sub>0</sub> was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p<sub>clust</sub> &lt; 0.05. All analyses were performed with the [Brainstat package](https://brainstat.readthedocs.io/en/master/) in Python.
+Aggression measures were derived from the Reactive-Proactive Aggression Questionnaire (RPQ). Site was included to account for systematic differences in data acquisition across imaging centers, and CT<sub>0</sub> was included to control for overall individual differences in cortical thickness. To account for multiple comparisons across vertices, statistical maps were thresholded using random-field-theory-based cluster analysis for nonisotropic images, with a two-tailed cluster-level significance threshold of p<sub>clust</sub> &lt; 0.05. 
 
 
 
