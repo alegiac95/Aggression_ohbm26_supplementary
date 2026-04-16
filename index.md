@@ -160,7 +160,13 @@ Vertex-level effect sizes (Cohen's f) for RA and PA were small overall, ranging 
 
 As sensitivity analyses, the GLM was re-estimated twice by additionally including either diagnostic group (CD vs HC) or ADHD comorbidity, to assess the stability of the identified clusters. ADHD comorbidity was defined as the presence of ADHD symptoms at any time point on the Kiddie Schedule for Affective Disorders and Schizophrenia - Present and Lifetime Version (K-SADS-PL) administered in the FemNAT-CD study.
 
-Sensitivity analyses controlling for diagnostic group or comorbid ADHD showed that the spatial patterns of association were highly preserved relative to the primary model (t-map correlations, r = 0.94-0.99, p<sub>spin</sub> &lt; 0.001). Using the Dice coefficient to quantify overlap of the RFT cluster-corrected significant vertices, PA effects were essentially unchanged after adjustment for ADHD (Dice = 0.985), whereas adjustment for diagnostic group yielded a moderate reduction in overlap (Dice = 0.753). For RA, overlap was reduced when either covariate was included (Dice = 0.622 for ADHD; Dice = 0.704 for diagnostic group), suggesting that the overall spatial pattern was preserved while the number of surviving significant vertices was reduced.
+Sensitivity analyses controlling for diagnostic group or comorbid ADHD showed that the spatial patterns of association were highly preserved relative to the primary model (t-map correlations, r = 0.94-0.99, p<sub>spin</sub> &lt; 0.001). 
+
+add figure here!
+
+Using the Dice coefficient to quantify overlap of the RFT cluster-corrected significant vertices, PA effects were essentially unchanged after adjustment for ADHD (Dice = 0.985), whereas adjustment for diagnostic group yielded a moderate reduction in overlap (Dice = 0.753). For RA, overlap was reduced when either covariate was included (Dice = 0.622 for ADHD; Dice = 0.704 for diagnostic group), suggesting that the overall spatial pattern was preserved while the number of surviving significant vertices was reduced.
+
+add figure here!
 
 </section>
 
@@ -227,7 +233,12 @@ The reference maps included in the current analysis are listed below.
 
 ### Results
 
-Similarity results will be reported here as effect direction, magnitude, and corrected significance for each receptor and transporter map.
+The IDP for the main effect of RA was significantly correlated with the 5-HT4 serotonin receptor (r=-0.20, pspin<0.05) and with the histamine H3 receptor (r=0.13, pspin<0.05). The PA IDP, on the other hand, was significantly correlated with two NRTM maps from the serotonin system (5-HT4: r=0.30, pspin<0.05; 5-HT2A: r=0.20, p<sub>spin</sub><0.05).
+
+<figure class="content-figure">
+  <img src="assets/images/receptor_similarity.png" alt="IDP-receptor similarities">
+</figure>
+
 </section>
 
 <section class="section-card" id="gene-decoding" markdown="1">
