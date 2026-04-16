@@ -326,6 +326,7 @@ body::after {
   border-radius: var(--radius-lg);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(248, 251, 255, 0.84));
   scroll-margin-top: 6rem;
+  overflow: hidden;
 }
 
 .section-card::before {
@@ -479,19 +480,42 @@ blockquote {
   color: var(--text-soft);
 }
 
-.section-card [align="center"] {
-  margin: 1.4rem 0 0;
-}
-
 .section-card img {
   max-width: 100%;
   height: auto;
 }
 
-.section-card [align="center"] img {
+.content-figure {
+  width: 100%;
+  max-width: 100%;
+  margin: 1.4rem 0 0;
+  overflow: hidden;
+}
+
+.content-figure img {
   display: block;
-  width: min(100%, 600px);
+  width: min(100%, 600px) !important;
   margin: 0 auto;
+}
+
+.table-scroll {
+  width: 100%;
+  max-width: 100%;
+  margin: 1.4rem 0 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll table {
+  width: max-content;
+  min-width: 100%;
+  margin: 0;
+}
+
+.table-scroll th,
+.table-scroll td {
+  white-space: nowrap;
 }
 
 table {
@@ -572,16 +596,13 @@ th {
     display: none;
   }
 
-  table {
-    display: block;
-    max-width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    white-space: nowrap;
+  .content-figure,
+  .table-scroll {
+    margin-top: 1.2rem;
   }
 
-  th,
-  td {
+  .table-scroll th,
+  .table-scroll td {
     padding: 0.68rem 0.5rem;
   }
 

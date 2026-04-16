@@ -69,6 +69,8 @@ Of the full sample, participants were included in the present study if 1) they h
 
 Aggressive behaviors were assessed using the Reactive–Proactive Aggression Questionnaire (RPQ)11, a validated 23-item self-report instrument designed to distinguish between reactive and proactive aggression. The scale comprises two subscales, with items assessing impulsive, retaliatory aggression (reactive aggression - RA) and deliberate, goal-directed aggression (proactive aggression - PA). Participants rated each item on a three-point Likert scale ranging from 0 (never) to 2 (often). Individual items in each subscale were summed to obtain an RA and PA subscale score for each participant.
 
+<div class="table-scroll" markdown="1">
+
 | Characteristic | Overall N = 670<sup>&dagger;</sup> | CD N = 279<sup>&dagger;</sup> | HC N = 391<sup>&dagger;</sup> | Test statistic | p-value<sup>2</sup> |
 | --- | --- | --- | --- | --- | --- |
 | **Demographics** |  |  |  |  |  |
@@ -88,6 +90,8 @@ Aggressive behaviors were assessed using the Reactive–Proactive Aggression Que
 | **RPQ Subscales** |  |  |  |  |  |
 | PA Subscale | 2.21 &plusmn; 3.40<br>[0-19] | 4.01 &plusmn; 4.27<br>[0-19] | 0.93 &plusmn; 1.70<br>[0-11] | W = 82819.00 | &lt;0.001 |
 | RA Subscale | 7.9 &plusmn; 5.1<br>[0-22] | 11.3 &plusmn; 5.1<br>[0-22] | 5.5 &plusmn; 3.6<br>[0-20] | W = 88920.50 | &lt;0.001 |
+
+</div>
 
 *Note:* Values are expressed as mean &plusmn; SD [range] or n (%). FSIQ = Full-Scale Intelligence Quotient Score; CT = Cortical Thickness; RPQ = Reactive Proactive Aggression Questionnaire; RA = Reactive Aggression; PA = Proactive Aggression. <sup>&dagger;</sup> n (%); mean &plusmn; SD [range]. <sup>2</sup> Pearson's chi-squared test; Wilcoxon rank sum test.
 
@@ -140,16 +144,16 @@ Reactive aggression showed a marked left-lateralized association with cortical t
 
 Proactive aggression also showed significant associations with cortical thickness (RFT-corrected p &lt; 0.05; Figure 1b), characterized by increased CT in lateral temporo-parietal regions together with lower CT in posterior-ventral cortex. Cortical thickening (red-orange; Fig. 1b, top) was most prominent in the left lateral posterior temporal cortex (approximately BA 22/21) and extended into the temporo-parietal junction and inferior parietal territory (approximately BA 39/40), with a smaller homologous cluster in the right posterior temporal cortex (approximately BA 22/21). In contrast, cortical thinning (blue-light blue; Fig. 1b, bottom) was observed on the medial surface, involving posterior midline cortex consistent with posterior cingulate and precuneus (approximately BA 23/31 and BA 7), and extended into ventral occipito-temporal and medial occipital regions in the lingual-parahippocampal vicinity (approximately BA 18/19 and BA 27/28/35/36), with an additional small cluster in the right ventral temporal cortex (approximately BA 37).
 
-<div align="center">
-  <img src="assets/images/glm_figure.png" alt="Vertex-wise GLM results" width="600">
-</div>
+<figure class="content-figure">
+  <img src="assets/images/glm_figure.png" alt="Vertex-wise GLM results">
+</figure>
 
 
 Vertex-level effect sizes (Cohen's f) for RA and PA were small overall, ranging from 0 to 0.189 (0.055 ± 0.037) and from 0 to 0.193 (0.035 ± 0.027), respectively (Figure 1c). The largest effect sizes for RA were observed along the medial frontal-parietal midline, with smaller maxima in dorsolateral frontal and temporo-parietal cortex (Figure 1d, top). The largest effect sizes for PA were concentrated more posteriorly, with peak vertices in posterior medial cortex (medial parietal-occipital territory) and ventral occipito-temporal cortex, alongside secondary maxima in the temporo-parietal junction (Figure 1d, bottom). Overall, effect sizes for the main effects of both forms of aggression were small relative to other model terms (Figure 1c), including mean cortical thickness (CT<sub>0</sub>; f = 0.516 ± 0.137), acquisition site (f = 0.268 ± 0.09), age (f = 0.263 ± 0.116), and biological sex (f = 0.093 ± 0.062).
 
-<div align="center">
-  <img src="assets/images/glm_effect_sizes.png" alt="Vertex-wise GLM effect sizes" width="600">
-</div>
+<figure class="content-figure">
+  <img src="assets/images/glm_effect_sizes.png" alt="Vertex-wise GLM effect sizes">
+</figure>
 
 
 ### Sensitivity Analyses
@@ -177,45 +181,49 @@ All reference maps were z-scored prior to analysis and resampled to the RA and P
 
 The reference maps included in the current analysis are listed below.
 
+<div class="table-scroll" markdown="1">
+
 | System | Target | Tracer | N Subjects | Study |
 | --- | --- | --- | ---: | --- |
-| Acetylcholine | A4B2 | Flubatine | 30 | (Hillmer, 2016) |
-| Acetylcholine | M1 | Lsn3172176 | 24 | (Naganawa, 2020) |
-| Acetylcholine | VAChT | Feobv | 18 | (Aghourian, 2017) |
-| Acetylcholine | VAChT | Feobv | 5 | (Bedard, 2019) |
-| Acetylcholine | VAChT | Feobv | 4 | (Tuominen, N.D.) |
-| Cannabinoid | CB1 | Fmpepd2 | 22 | (Laurikainen, 2018) |
-| Cannabinoid | CB1 | Omar | 77 | (Normandin, 2015) |
-| Dopamine | D1 | Sch23390 | 13 | (Kaller, 2017) |
-| Dopamine | D2 | Fallypride | 49 | (Jaworska, 2020) |
-| Dopamine | D2 | Flb457 | 55 | (Sandiego, 2015) |
-| Dopamine | D2 | Flb457 | 37 | (Smith, 2017) |
-| Dopamine | D2 | Raclopride | 7 | (Alarkurtti, 2015) |
-| Dopamine | DAT | Fepe2i | 6 | (Sasaki, 2012) |
-| Dopamine | DAT | Fpcit | 174 | (Dukart, 2018) |
-| GABA | GABAA | Flumazenil | 6 | (Dukart, 2018) |
-| GABA | GABAA | Flumazenil | 16 | (Norgaard, 2021) |
-| Glutamate | mGluR5 | Abp688 | 28 | (DuBois, 2015) |
-| Glutamate | mGluR5 | Abp688 | 22 | (Rosa-Neto, N.D.) |
-| Glutamate | mGluR5 | Abp688 | 73 | (Smart, 2019) |
-| Histamine | H3 | Gsk189254 | 8 | (Gallezot, 2017) |
-| Norepinephrine | NET | Methylreboxetine | 10 | (Hesse, 2017) |
-| Norepinephrine | NET | Mrb | 77 | (Ding, 2010) |
-| Opioid | KOR | Ly2795050 | 28 | (Vijay, 2018) |
-| Opioid | MOR | Carfentanil | 204 | (Kantonen, 2020) |
-| Opioid | MOR | Carfentanil | 39 | (Turtonen, 2020) |
-| Serotonin | 5-HT1a | Cumi101 | 8 | (Beliveau, 2017) |
-| Serotonin | 5-HT1a | Way100635 | 35 | (Savli, 2012) |
-| Serotonin | 5-HT1b | Az10419369 | 36 | (Beliveau, 2017) |
-| Serotonin | 5-HT1b | P943 | 23 | (Gallezot, 2010) |
-| Serotonin | 5-HT1b | P943 | 23 | (Savli, 2012) |
-| Serotonin | 5-HT2a | Altanserin | 19 | (Savli, 2012) |
-| Serotonin | 5-HT2a | Cimbi36 | 29 | (Beliveau, 2017) |
-| Serotonin | 5-HT4 | Sb207145 | 59 | (Beliveau, 2017) |
-| Serotonin | 5-HT6 | Gsk215083 | 30 | (Radhakrishnan, 2018) |
-| Serotonin | 5-HTT | Dasb | 100 | (Beliveau, 2017) |
-| Serotonin | 5-HTT | Dasb | 18 | (Savli, 2012) |
-| Serotonin | 5-HTT | Madam | 10 | (Fazio, 2016) |
+| Acetylcholine | A4B2 | [18F]Flubatine | 30 | (Hillmer, 2016) |
+| Acetylcholine | M1 | [11C]LSN3172176 | 24 | (Naganawa, 2020) |
+| Acetylcholine | VAChT | [18F]FEOBV | 18 | (Aghourian, 2017) |
+| Acetylcholine | VAChT | [18F]FEOBV | 5 | (Bedard, 2019) |
+| Acetylcholine | VAChT | [18F]FEOBV | 4 | (Tuominen, N.D.) |
+| Cannabinoid | CB1 | [18F]FMPEP-d2 | 22 | (Laurikainen, 2018) |
+| Cannabinoid | CB1 | [11C]OMAR | 77 | (Normandin, 2015) |
+| Dopamine | D1 | [11C]SCH23390 | 13 | (Kaller, 2017) |
+| Dopamine | D2 | [18F]Fallypride | 49 | (Jaworska, 2020) |
+| Dopamine | D2 | [11C]FLB457 | 55 | (Sandiego, 2015) |
+| Dopamine | D2 | [11C]FLB457 | 37 | (Smith, 2017) |
+| Dopamine | D2 | [11C]Raclopride | 7 | (Alarkurtti, 2015) |
+| Dopamine | DAT | [18F]FE-PE2I | 6 | (Sasaki, 2012) |
+| Dopamine | DAT | [123I]FP-CIT | 174 | (Dukart, 2018) |
+| GABA | GABAA | [11C]Flumazenil | 6 | (Dukart, 2018) |
+| GABA | GABAA | [11C]Flumazenil | 16 | (Norgaard, 2021) |
+| Glutamate | mGluR5 | [11C]ABP688 | 28 | (DuBois, 2015) |
+| Glutamate | mGluR5 | [11C]ABP688 | 22 | (Rosa-Neto, N.D.) |
+| Glutamate | mGluR5 | [11C]ABP688 | 73 | (Smart, 2019) |
+| Histamine | H3 | [11C]GSK189254 | 8 | (Gallezot, 2017) |
+| Norepinephrine | NET | [11C]Methylreboxetine | 10 | (Hesse, 2017) |
+| Norepinephrine | NET | [11C]MRB | 77 | (Ding, 2010) |
+| Opioid | KOR | [11C]LY2795050 | 28 | (Vijay, 2018) |
+| Opioid | MOR | [11C]Carfentanil | 204 | (Kantonen, 2020) |
+| Opioid | MOR | [11C]Carfentanil | 39 | (Turtonen, 2020) |
+| Serotonin | 5-HT1a | [11C]CUMI-101 | 8 | (Beliveau, 2017) |
+| Serotonin | 5-HT1a | [11C]WAY-100635 | 35 | (Savli, 2012) |
+| Serotonin | 5-HT1b | [11C]AZ10419369 | 36 | (Beliveau, 2017) |
+| Serotonin | 5-HT1b | [11C]P943 | 23 | (Gallezot, 2010) |
+| Serotonin | 5-HT1b | [11C]P943 | 23 | (Savli, 2012) |
+| Serotonin | 5-HT2a | [18F]Altanserin | 19 | (Savli, 2012) |
+| Serotonin | 5-HT2a | [11C]Cimbi-36 | 29 | (Beliveau, 2017) |
+| Serotonin | 5-HT4 | [11C]SB207145 | 59 | (Beliveau, 2017) |
+| Serotonin | 5-HT6 | [11C]GSK215083 | 30 | (Radhakrishnan, 2018) |
+| Serotonin | 5-HTT | [11C]DASB | 100 | (Beliveau, 2017) |
+| Serotonin | 5-HTT | [11C]DASB | 18 | (Savli, 2012) |
+| Serotonin | 5-HTT | [11C]MADAM | 10 | (Fazio, 2016) |
+
+</div>
 
 ### Results
 
