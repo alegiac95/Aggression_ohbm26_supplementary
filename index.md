@@ -292,9 +292,9 @@ To reduce redundancy among enriched terms, Metascape clustered significantly enr
 
 ### Results
 
-Functional enrichment analyses revealed divergent cell-type signatures for the RA-specific and PA-specific gene sets, as summarized in the figure below. Cell-type enrichment analysis of the RA-specific genes, using EWCE with the Lake et al. brain cell-type reference, identified enrichment across both excitatory and inhibitory neuronal populations, with the strongest effects observed for Ex4 (FC = 1.13, pFDR < 0.05), In1c (FC = 1.18, pFDR < 0.05), and In3 (FC = 1.27, pFDR < 0.05).
+Functional enrichment analyses revealed divergent cell-type signatures for the RA-specific and PA-specific gene sets, as summarized in the figure below. Cell-type enrichment analysis of the RA-specific genes, using EWCE with the Lake et al. brain cell-type reference, identified enrichment across both excitatory and inhibitory neuronal populations, with the strongest effects observed for Ex4 (FC = 1.13, p<sub>FDR</sub> < 0.05), In1c (FC = 1.18, p<sub>FDR</sub> < 0.05), and In3 (FC = 1.27, p<sub>FDR</sub> < 0.05).
 
-In contrast, PA-specific genes showed strongest enrichment in vascular-associated cell populations, particularly endothelial cells (End; FC = 2.22, pFDR < 0.05) and pericytes (Per; FC = 3.18, pFDR < 0.05). This pattern suggests that the transcriptomic correlates of RA were more closely aligned with neuronal cell classes, whereas PA-related genes showed comparatively stronger enrichment in non-neuronal vascular cell types.
+In contrast, PA-specific genes showed strongest enrichment in vascular-associated cell populations, particularly endothelial cells (End; FC = 2.22, p<sub>FDR</sub> < 0.05) and pericytes (Per; FC = 3.18, p<sub>FDR</sub> < 0.05). This pattern suggests that the transcriptomic correlates of RA were more closely aligned with neuronal cell classes, whereas PA-related genes showed comparatively stronger enrichment in non-neuronal vascular cell types.
 
 <figure class="content-figure">
   <img src="assets/images/genetics_celltype.png" alt="cell type enrichment">
