@@ -479,6 +479,21 @@ blockquote {
   color: var(--text-soft);
 }
 
+.section-card [align="center"] {
+  margin: 1.4rem 0 0;
+}
+
+.section-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-card [align="center"] img {
+  display: block;
+  width: min(100%, 600px);
+  margin: 0 auto;
+}
+
 table {
   width: 100%;
   margin: 1.4rem 0 0;
@@ -555,6 +570,19 @@ th {
 
   .section-nav {
     display: none;
+  }
+
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  th,
+  td {
+    padding: 0.68rem 0.5rem;
   }
 
   .section-card__top {
