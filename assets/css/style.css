@@ -456,8 +456,8 @@ body::after {
 }
 
 .logo-wall__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.9rem;
 }
 
@@ -465,6 +465,7 @@ body::after {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1 1 220px;
   min-height: 118px;
   padding: 1rem;
   border: 1px solid rgba(15, 23, 42, 0.08);
@@ -473,7 +474,7 @@ body::after {
 }
 
 .logo-wall__item--dfg {
-  grid-column: span 2;
+  flex: 1.8 1 420px;
 }
 
 .logo-wall__item img {
@@ -485,8 +486,8 @@ body::after {
 }
 
 .logo-wall__item--dfg img {
-  max-width: 320px;
-  max-height: 72px;
+  max-width: 400px;
+  max-height: 82px;
 }
 
 sup {
@@ -649,13 +650,17 @@ th {
   }
 
   .logo-wall__grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.75rem;
   }
 
   .logo-wall__item {
+    flex: 1 1 calc(50% - 0.375rem);
     min-height: 96px;
     padding: 0.85rem;
+  }
+
+  .logo-wall__item--dfg {
+    flex-basis: 100%;
   }
 
   .logo-wall__item img {
@@ -664,7 +669,7 @@ th {
 
   .logo-wall__item--dfg img {
     max-width: 100%;
-    max-height: 60px;
+    max-height: 68px;
   }
 
   .table-scroll {
