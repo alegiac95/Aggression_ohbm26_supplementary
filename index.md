@@ -162,11 +162,15 @@ As sensitivity analyses, the GLM was re-estimated twice by additionally includin
 
 Sensitivity analyses controlling for diagnostic group or comorbid ADHD showed that the spatial patterns of association were highly preserved relative to the primary model (t-map correlations, r = 0.94-0.99, p<sub>spin</sub> &lt; 0.001). 
 
-add figure here!
+<figure class="content-figure">
+  <img src="assets/images/sensitivity_map.png" alt="sensitivity analyses">
+</figure>
 
 Using the Dice coefficient to quantify overlap of the RFT cluster-corrected significant vertices, PA effects were essentially unchanged after adjustment for ADHD (Dice = 0.985), whereas adjustment for diagnostic group yielded a moderate reduction in overlap (Dice = 0.753). For RA, overlap was reduced when either covariate was included (Dice = 0.622 for ADHD; Dice = 0.704 for diagnostic group), suggesting that the overall spatial pattern was preserved while the number of surviving significant vertices was reduced.
 
-add figure here!
+<figure class="content-figure">
+  <img src="assets/images/dice_overlap.png" alt="Cluster overlap">
+</figure>
 
 </section>
 
