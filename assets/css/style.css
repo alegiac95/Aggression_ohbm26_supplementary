@@ -455,29 +455,10 @@ body::after {
   box-shadow: var(--shadow);
 }
 
-.logo-wall__eyebrow {
-  margin: 0;
-  color: var(--accent-strong);
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-}
-
-.logo-wall__title {
-  margin: 0.45rem 0 0;
-  color: #091120;
-  font-family: "Space Grotesk", "Manrope", sans-serif;
-  font-size: clamp(1.35rem, 2.8vw, 1.8rem);
-  font-weight: 700;
-  letter-spacing: -0.03em;
-}
-
 .logo-wall__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   gap: 0.9rem;
-  margin-top: 1.2rem;
 }
 
 .logo-wall__item {
@@ -491,12 +472,21 @@ body::after {
   background: rgba(255, 255, 255, 0.86);
 }
 
+.logo-wall__item--dfg {
+  grid-column: span 2;
+}
+
 .logo-wall__item img {
   display: block;
   width: 100%;
   max-width: 180px;
   max-height: 64px;
   object-fit: contain;
+}
+
+.logo-wall__item--dfg img {
+  max-width: 320px;
+  max-height: 72px;
 }
 
 sup {
@@ -670,6 +660,11 @@ th {
 
   .logo-wall__item img {
     max-height: 52px;
+  }
+
+  .logo-wall__item--dfg img {
+    max-width: 100%;
+    max-height: 60px;
   }
 
   .table-scroll {

@@ -358,9 +358,7 @@ This study was funded by the [German Research Foundation (DFG) - Project number 
 [giacomel@med.uni-frankfurt.de](mailto:giacomel@med.uni-frankfurt.de)
 </section>
 
-<section class="logo-wall" aria-labelledby="logos-title">
-  <p class="logo-wall__eyebrow">Affiliations and Funding</p>
-  <h2 class="logo-wall__title" id="logos-title">Logos</h2>
+<section class="logo-wall" aria-label="Affiliations and funding logos">
   <div class="logo-wall__grid">
     <div class="logo-wall__item">
       <img src="assets/logos/FemNAT-CD_Logo_RGB.jpg" alt="FemNAT-CD logo">
@@ -371,7 +369,7 @@ This study was funded by the [German Research Foundation (DFG) - Project number 
     <div class="logo-wall__item">
       <img src="assets/logos/trr_logo.svg" alt="TRR 379 logo">
     </div>
-    <div class="logo-wall__item">
+    <div class="logo-wall__item logo-wall__item--dfg">
       <img src="assets/logos/dfg_logo_englisch_blau_en_4c.png" alt="German Research Foundation logo">
     </div>
     <div class="logo-wall__item">
