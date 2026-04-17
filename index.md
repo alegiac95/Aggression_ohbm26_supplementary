@@ -357,3 +357,28 @@ This study was funded by the [German Research Foundation (DFG) - Project number 
 </p>
 [giacomel@med.uni-frankfurt.de](mailto:giacomel@med.uni-frankfurt.de)
 </section>
+
+<section class="logo-wall" aria-labelledby="logos-title">
+  <p class="logo-wall__eyebrow">Affiliations and Funding</p>
+  <h2 class="logo-wall__title" id="logos-title">Logos</h2>
+  <div class="logo-wall__grid">
+    <div class="logo-wall__item">
+      <img src="assets/logos/FemNAT-CD_Logo_RGB.jpg" alt="FemNAT-CD logo">
+    </div>
+    <div class="logo-wall__item">
+      <img src="assets/logos/CoBIC_Logo_cmyk.svg" alt="Cooperative Brain Imaging Centre logo">
+    </div>
+    <div class="logo-wall__item">
+      <img src="assets/logos/trr_logo.svg" alt="TRR 379 logo">
+    </div>
+    <div class="logo-wall__item">
+      <img src="assets/logos/dfg_logo_englisch_blau_en_4c.png" alt="German Research Foundation logo">
+    </div>
+    <div class="logo-wall__item">
+      <img src="assets/logos/logo_ukf_englisch-768x373.png" alt="University Hospital Frankfurt logo">
+    </div>
+    <div class="logo-wall__item">
+      <img src="assets/logos/LogoNoUKF_klinforschung_en_rgb.png" alt="Clinical research logo">
+    </div>
+  </div>
+</section>
